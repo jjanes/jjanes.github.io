@@ -6,21 +6,28 @@
     <description>Recent content on John Janes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Nov 2025 12:27:36 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 12:00:00 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Origin Story: The Packard Bell That Started It All</title>
+      <link>http://localhost:1313/posts/origin-story/</link>
+      <pubDate>Wed, 26 Nov 2025 12:00:00 -0600</pubDate>
+      <guid>http://localhost:1313/posts/origin-story/</guid>
+      <description>&lt;p&gt;It all started in a dark alley.&lt;/p&gt;&#xA;&lt;p&gt;It was 1992. I was 11. A shadowy figure leaned in and whispered,&lt;br&gt;&#xA;“Hey kid… this fell off the back of a truck. You interested in a &lt;em&gt;state-of-the-art Packard Bell&lt;/em&gt;?”&lt;/p&gt;&#xA;&lt;p&gt;No dummies. You didn’t really think that’s how this started, did you?&lt;/p&gt;&#xA;&lt;p&gt;Gotcha.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;christmas-1993--berwyn-illinois&#34;&gt;Christmas, 1993 — Berwyn, Illinois&lt;/h2&gt;&#xA;&lt;p&gt;The real beginning was Christmas morning, 1993 — at my grandparents’ apartment in Berwyn, Illinois.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hello World</title>
       <link>http://localhost:1313/posts/hello-world/</link>
       <pubDate>Thu, 20 Nov 2025 12:27:36 -0600</pubDate>
       <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;p&gt;Hello world&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hello, and welcome to my site.&lt;/p&gt;&#xA;&lt;p&gt;My name is &lt;strong&gt;John Janes&lt;/strong&gt;, and I’ve been programming in one form or another for most of my life. This blog is a place to share my thoughts on technology and to document what I’ve learned over a &lt;strong&gt;25+ year professional career in software development&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-systems&#34;&gt;Operating Systems&lt;/h2&gt;&#xA;&lt;p&gt;My daily driver is &lt;strong&gt;NixOS&lt;/strong&gt;, though I regularly work on macOS and Windows as well.&lt;br&gt;&#xA;On the server side, &lt;strong&gt;Ubuntu&lt;/strong&gt; is usually my platform of choice.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Resume</title>
       <link>http://localhost:1313/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resume/</guid>
-      <description>&lt;h1 id=&#34;john-janes&#34;&gt;John Janes&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Principal Software Engineer&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Homer Glen, IL · (708) 724-4996 · &lt;a href=&#34;mailto:john@johnjanes.com&#34;&gt;john@johnjanes.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/files/John_Janes_Resume.pdf&#34;&gt;Download PDF Resume&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;Principal Software Engineer with 25+ years delivering high-impact solutions across Fortune 500 companies and fast-growing startups. Proven expertise in scaling engineering teams, modernizing legacy systems, and building enterprise marketing and SaaS platforms. Track record of supporting multiple funding rounds and leading critical compliance initiatives including GDPR and PCI. :contentReference[oaicite:0]{index=0}&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Languages &amp;amp; Frameworks&lt;/strong&gt;&lt;br&gt;&#xA;PHP (Symfony, Laravel), Ruby (Rails), JavaScript (Node.js, Express, React, Angular), Go, HTML/CSS&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;john-janes&#34;&gt;John Janes&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Principal Software Engineer&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Homer Glen, IL · (708) 724-4996 · &lt;a href=&#34;mailto:john@johnjanes.com&#34;&gt;john@johnjanes.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/files/John_Janes_Resume.pdf&#34;&gt;Download PDF Resume&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;h2 id=&#34;principal-software-engineer-with-25-years-delivering-high-impact-solutions-across-fortune-500-companies-and-fast-growing-startups-proven-expertise-in-scaling-engineering-teams-modernizing-legacy-systems-and-building-enterprise-marketing-and-saas-platforms-track-record-of-supporting-multiple-funding-rounds-and-leading-critical-compliance-initiatives-including-gdpr-and-pci&#34;&gt;Principal Software Engineer with 25+ years delivering high-impact solutions across Fortune 500 companies and fast-growing startups. Proven expertise in scaling engineering teams, modernizing legacy systems, and building enterprise marketing and SaaS platforms. Track record of supporting multiple funding rounds and leading critical compliance initiatives including GDPR and PCI.&lt;/h2&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Languages &amp;amp; Frameworks&lt;/strong&gt;&lt;br&gt;&#xA;PHP (Symfony, Laravel), Ruby (Rails), JavaScript (Node.js, Express, React, Angular), Go, HTML/CSS&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

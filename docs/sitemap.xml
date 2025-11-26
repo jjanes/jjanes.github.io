@@ -3,18 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://johnjanes.com/</loc>
-    <lastmod>2025-11-20T12:27:43-06:00</lastmod>
+    <lastmod>2025-11-26T12:00:00-06:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/categories/blog/</loc>
+    <lastmod>2025-11-26T12:00:00-06:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/career/</loc>
+    <lastmod>2025-11-26T12:00:00-06:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/categories/</loc>
+    <lastmod>2025-11-26T12:00:00-06:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/computers/</loc>
+    <lastmod>2025-11-26T12:00:00-06:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/origin-story/</loc>
+    <lastmod>2025-11-26T12:00:00-06:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/posts/origin-story/</loc>
+    <lastmod>2025-11-26T12:00:00-06:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/personal/</loc>
+    <lastmod>2025-11-26T12:00:00-06:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/posts/</loc>
+    <lastmod>2025-11-26T12:00:00-06:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/</loc>
+    <lastmod>2025-11-26T12:00:00-06:00</lastmod>
   </url><url>
     <loc>https://johnjanes.com/posts/hello-world/</loc>
     <lastmod>2025-11-20T12:27:36-06:00</lastmod>
   </url><url>
-    <loc>https://johnjanes.com/posts/</loc>
-    <lastmod>2025-11-20T12:27:36-06:00</lastmod>
-  </url><url>
-    <loc>https://johnjanes.com/categories/</loc>
-  </url><url>
     <loc>https://johnjanes.com/resume/</loc>
-  </url><url>
-    <loc>https://johnjanes.com/tags/</loc>
   </url>
 </urlset>
