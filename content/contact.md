@@ -31,7 +31,7 @@ If you’re more comfortable online, you can find me here:
 
 ---
 
-## What to Reach Out About
+## Want to Reach Out About
 
 You can reach out for:
 
