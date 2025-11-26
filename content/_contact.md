@@ -1,8 +1,8 @@
-+++
-date = '2025-11-26T13:02:27-06:00'
-draft = false
-title = 'Contact'
-+++
+---
+title: "Contact"
+layout: "page"
+---
+# Contact
 
 
 Feel free to call or drop a text — I’m always happy to talk tech, projects, ideas, or just say hey.
