@@ -16,6 +16,12 @@ theme = "hugo-theme-m10c"
   url        = "/resume/"
 
 
+[[menu.main]]
+  identifier = "contact"
+  name       = "Contact Me"
+  url        = "/contact/"
+
+
 [params]
 author      = "John Janes"
 description = "Senior Software Engineer – Many Ninja Custom Software Solutions"
@@ -26,6 +32,25 @@ favicon     = "/favicon.ico"
   icon = "brand-github"
   name = "GitHub"
   url  = "https://github.com/jjanes"
+
+[[params.social]]
+  icon = "brand-x"
+  name = "X"
+  url  = "https://x.com/jjfish"
+
+
+[[params.social]]
+  icon = "brand-kick"
+  name = "Kick"
+  url  = "https://kick.com/drezdin"
+
+
+
+[[params.social]]
+  icon = "brand-twitch"
+  name = "Twitch"
+  url  = "https://twitch.com/jjfishii"
+
 
 [[params.social]]
   icon = "brand-linkedin"
