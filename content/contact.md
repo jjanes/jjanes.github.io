@@ -1,7 +1,6 @@
 +++
-date = '2025-11-26T13:02:27-06:00'
-draft = false
 title = 'Contact'
+lagout = 'page'
 +++
 
 
