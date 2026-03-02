@@ -17,9 +17,6 @@
     <loc>http://localhost:1313/posts/dcq/</loc>
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/thezoo/</loc>
-    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/execution-engine/</loc>
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -54,6 +51,9 @@
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tensor-pipelines/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/thezoo/</loc>
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/blog/</loc>
