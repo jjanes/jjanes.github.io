@@ -20,7 +20,13 @@ When I wrote this, I kept thinking about Upton Sinclair walking into the meatpac
 
 Modern AI — especially consumer-grade AI — feels similar. From the outside, it’s sleek interfaces, instant outputs, magical demos. Underneath, it’s layers of duplicated compute, isolated inference passes, memory churn, black-box graphs running side by side without coordination. We’ve industrialized pattern generation, but we rarely audit the factory floor. The point isn’t outrage — it’s awareness. If we’re going to build the next layer of infrastructure on top of these systems, we should understand how the assembly line actually runs.
 
+<br>
+<br>
 
+![Pasted image 20260302121453.png](/convolution.png)
+
+<br>
+<br>
 
 ## Enter the Zoo
 
@@ -97,7 +103,6 @@ K_{c_{out}, c_{in}}(m, n)
 \]
 ```
 
-![Pasted image 20260302121453.png](/convolution.png)
 
 
 This same primitive:

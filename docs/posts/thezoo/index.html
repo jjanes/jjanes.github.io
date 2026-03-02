@@ -117,6 +117,9 @@ Modern AI — especially consumer-grade AI — feels similar. From the outside, 
       <h2 id="the-hook">The Hook</h2>
 <p>When I wrote this, I kept thinking about Upton Sinclair walking into the meatpacking plants for The Jungle. He didn’t go in looking for metaphor — he went in to see how the machinery actually worked. What he found wasn’t just production at scale; it was waste, opacity, and a system optimized for throughput over clarity. The surface looked efficient. The inside told a different story.</p>
 <p>Modern AI — especially consumer-grade AI — feels similar. From the outside, it’s sleek interfaces, instant outputs, magical demos. Underneath, it’s layers of duplicated compute, isolated inference passes, memory churn, black-box graphs running side by side without coordination. We’ve industrialized pattern generation, but we rarely audit the factory floor. The point isn’t outrage — it’s awareness. If we’re going to build the next layer of infrastructure on top of these systems, we should understand how the assembly line actually runs.</p>
+<!-- raw HTML omitted -->
+<p><img src="/convolution.png" alt="Pasted image 20260302121453.png"></p>
+<!-- raw HTML omitted -->
 <h2 id="enter-the-zoo">Enter the Zoo</h2>
 <p>Over the past few months, as I’ve taken apart more modern AI systems — reading the papers, tracing the graphs, inspecting the ONNX exports — something hasn’t been sitting right with me. Not hype. Not headlines. The actual mechanics. The way these systems are wired and shipped. And the more I look at them, the more I’m surprised that more engineers aren’t pushing on the same questions.</p>
 <p>When I talk about “THE ZOO,” I’m talking about the model zoo most of us quietly live inside. A collection of pretrained networks — detectors, encoders, segmenters, diffusers — each living in its own cage, each wrapped in its own API, each doing its job without ever acknowledging the others. I’ve been digging through these animals lately — pulling apart ONNX graphs, inspecting layers, tracing tensor flows — and what stands out isn’t how different they are, but how similar they are under the hood. Convolutions. Attention blocks. Normalization layers. Feature pyramids. The same bones showing up in different skins.</p>
@@ -155,8 +158,7 @@ X_{c_{in}}(i - m, j - n)
 \cdot
 K_{c_{out}, c_{in}}(m, n)
 \]
-</code></pre><p><img src="/convolution.png" alt="Pasted image 20260302121453.png"></p>
-<p>This same primitive:</p>
+</code></pre><p>This same primitive:</p>
 <ul>
 <li>Extracts edges</li>
 <li>Builds hierarchical features</li>
