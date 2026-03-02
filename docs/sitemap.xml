@@ -3,7 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://johnjanes.com/</loc>
-    <lastmod>2025-11-26T12:00:00-06:00</lastmod>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/ai/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/architecture/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/contracts/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/posts/dcq/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/execution-engine/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/graph-compute/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/infrastructure/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/llm/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/machine-learning/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/model-architecture/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/model-zoo/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/performance/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/posts/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/systems-engineering/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/tensor-pipelines/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/posts/thezoo/</loc>
+    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnjanes.com/categories/blog/</loc>
     <lastmod>2025-11-26T12:00:00-06:00</lastmod>
@@ -24,12 +75,6 @@
     <lastmod>2025-11-26T12:00:00-06:00</lastmod>
   </url><url>
     <loc>https://johnjanes.com/tags/personal/</loc>
-    <lastmod>2025-11-26T12:00:00-06:00</lastmod>
-  </url><url>
-    <loc>https://johnjanes.com/posts/</loc>
-    <lastmod>2025-11-26T12:00:00-06:00</lastmod>
-  </url><url>
-    <loc>https://johnjanes.com/tags/</loc>
     <lastmod>2025-11-26T12:00:00-06:00</lastmod>
   </url><url>
     <loc>https://johnjanes.com/posts/hello-world/</loc>
