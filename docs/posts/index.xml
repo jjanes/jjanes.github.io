@@ -6,8 +6,15 @@
     <description>Recent content in Posts on John Janes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 12:27:36 -0600</lastBuildDate>
     <atom:link href="https://johnjanes.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All aboout the slop.</title>
+      <link>https://johnjanes.com/posts/theslop/</link>
+      <pubDate>Mon, 09 Mar 2026 12:27:36 -0600</pubDate>
+      <guid>https://johnjanes.com/posts/theslop/</guid>
+      <description>&lt;p&gt;So about 3 months ago I decided, lets try the &amp;ldquo;vibe coding thing.&amp;rdquo; I want to see what all the fuss was about. I loaded up Claude code and codex and put them to the test. Some things I have observed.&lt;/p&gt;&#xA;&lt;p&gt;I am building a streaming platform.. Pretty complex. Custom UDP video protocols, custom stream keys per user for tracking and various other per user control.&lt;/p&gt;&#xA;&lt;h1 id=&#34;go-with-codex&#34;&gt;Go with codex:&lt;/h1&gt;&#xA;&lt;p&gt;3 iterations of the project with the same results. Slop.&#xA;Few vendor packages.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dead Contract Queue: Cascading Multi-Layer Contract Execution</title>
       <link>https://johnjanes.com/posts/dcq/</link>

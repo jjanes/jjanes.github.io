@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://johnjanes.com/</loc>
-    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-09T12:27:36-06:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/posts/theslop/</loc>
+    <lastmod>2026-03-09T12:27:36-06:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/posts/</loc>
+    <lastmod>2026-03-09T12:27:36-06:00</lastmod>
   </url><url>
     <loc>https://johnjanes.com/tags/ai/</loc>
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
@@ -39,9 +45,6 @@
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnjanes.com/tags/performance/</loc>
-    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://johnjanes.com/posts/</loc>
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnjanes.com/tags/systems-engineering/</loc>
