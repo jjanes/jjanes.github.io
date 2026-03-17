@@ -230,7 +230,9 @@ h1, h2, h3, h4 { font-family: var(--font-brand); font-weight: 700; line-height: 
 /* ── Home sections ──────────────────────────────────────────────────────── */
 .home-section {
   padding: 3rem 0;
+  border-bottom: 1px solid var(--border);
 }
+.home-section:last-of-type { border-bottom: none; }
 
 .section-header {
   display: flex;
@@ -360,18 +362,6 @@ h1, h2, h3, h4 { font-family: var(--font-brand); font-weight: 700; line-height: 
 /* ── Post/project grids ─────────────────────────────────────────────────── */
 .card-grid   { display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; }
 .card-grid-4 { display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; }
-
-.post-card {
-  background: var(--bg-subtle);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: .7rem;
-  transition: border-color .15s, box-shadow .15s;
-}
-.post-card:hover { border-color: var(--blue); box-shadow: 0 2px 12px rgba(37,99,235,.08); }
 
 .post-card-date {
   font-size: .75rem;
