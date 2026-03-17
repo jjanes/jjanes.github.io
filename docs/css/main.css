@@ -230,9 +230,7 @@ h1, h2, h3, h4 { font-family: var(--font-brand); font-weight: 700; line-height: 
 /* ── Home sections ──────────────────────────────────────────────────────── */
 .home-section {
   padding: 3rem 0;
-  border-bottom: 1px solid var(--border);
 }
-.home-section:last-of-type { border-bottom: none; }
 
 .section-header {
   display: flex;
@@ -251,30 +249,129 @@ h1, h2, h3, h4 { font-family: var(--font-brand); font-weight: 700; line-height: 
   font-weight: 600;
 }
 
-/* ── Post cards ─────────────────────────────────────────────────────────── */
-.card-grid   { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; }
-.card-grid-2 { display: grid; grid-template-columns: repeat(2,1fr); gap: 1px; border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; }
+/* ── Announcement ───────────────────────────────────────────────────────── */
+.announcement-section {
+  padding: 2.25rem 0;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-subtle);
+}
+
+.announcement-card {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  border: 1px solid var(--border-blue);
+  border-radius: var(--radius-lg);
+  background: var(--white);
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(37,99,235,.08);
+}
+
+.announcement-body {
+  flex: 1;
+  padding: 2rem 2rem 2rem 2.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.announcement-label {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  font-size: .7rem;
+  font-family: var(--mono);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--blue);
+  background: var(--blue-tag);
+  padding: .2rem .6rem;
+  border-radius: 3px;
+  width: fit-content;
+}
+
+.announcement-title {
+  font-size: 1.6rem;
+  letter-spacing: -.03em;
+  line-height: 1.2;
+}
+.announcement-title a { color: inherit; }
+.announcement-title a:hover { color: var(--blue); }
+
+.announcement-summary {
+  font-size: .95rem;
+  color: var(--text-2);
+  line-height: 1.65;
+  max-width: 560px;
+}
+
+.announcement-footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: .25rem;
+}
+
+.announcement-date {
+  font-size: .78rem;
+  font-family: var(--mono);
+  color: var(--text-3);
+}
+
+.announcement-img-wrap {
+  flex-shrink: 0;
+  width: 380px;
+  display: block;
+  overflow: hidden;
+}
+.announcement-img-wrap img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+  transition: transform .3s;
+}
+.announcement-img-wrap:hover img { transform: scale(1.02); }
+
+@media (max-width: 900px) {
+  .announcement-card { flex-direction: column; }
+  .announcement-img-wrap { width: 100%; }
+  .announcement-img-wrap img { height: 200px; }
+  .announcement-body { padding: 1.5rem; }
+  .announcement-title { font-size: 1.35rem; }
+}
+
+/* ── Prose video shortcode ──────────────────────────────────────────────── */
+.prose-video {
+  margin: 1.5rem 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #000;
+}
+.prose-video video {
+  width: 100%;
+  display: block;
+  max-height: 480px;
+  object-fit: contain;
+}
+
+/* ── Post/project grids ─────────────────────────────────────────────────── */
+.card-grid   { display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; }
 .card-grid-4 { display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; }
 
 .post-card {
   background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
   gap: .7rem;
-  transition: background .15s;
+  transition: border-color .15s, box-shadow .15s;
 }
-.post-card:hover { background: #e5eaf2; }
-
-/* border-radius only on edge cards */
-.card-grid > .post-card:first-child  { border-radius: var(--radius-lg) 0 0 var(--radius-lg); }
-.card-grid > .post-card:last-child   { border-radius: 0 var(--radius-lg) var(--radius-lg) 0; }
-.card-grid-2 > .post-card:first-child { border-radius: var(--radius-lg) 0 0 var(--radius-lg); }
-.card-grid-2 > .post-card:last-child  { border-radius: 0 var(--radius-lg) var(--radius-lg) 0; }
-
-/* vertical dividers between grid cards */
-.card-grid   > .post-card + .post-card { border-left: 1px solid var(--border); }
-.card-grid-2 > .post-card + .post-card { border-left: 1px solid var(--border); }
+.post-card:hover { border-color: var(--blue); box-shadow: 0 2px 12px rgba(37,99,235,.08); }
 
 .post-card-date {
   font-size: .75rem;
@@ -329,7 +426,8 @@ h1, h2, h3, h4 { font-family: var(--font-brand); font-weight: 700; line-height: 
   border-color: transparent;
 }
 
-/* ── YouTube cards ──────────────────────────────────────────────────────── */
+/* ── YouTube grid + cards ───────────────────────────────────────────────── */
+.yt-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; }
 .yt-card {
   display: block;
   background: var(--white);
@@ -420,19 +518,53 @@ h1, h2, h3, h4 { font-family: var(--font-brand); font-weight: 700; line-height: 
   flex-shrink: 0;
 }
 
-/* ── Project cards ──────────────────────────────────────────────────────── */
+/* ── Project rows (homepage) ────────────────────────────────────────────── */
+.projects-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.project-row:first-child { border-top: 1px solid var(--border); }
+
+.project-row-main { flex: 1; display: flex; flex-direction: column; gap: .5rem; }
+
+.project-row-header {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+
+.project-row-title { font-size: 1rem; font-weight: 700; }
+.project-row-title a { color: inherit; }
+.project-row-title a:hover { color: var(--blue); }
+
+.project-row-summary { font-size: .875rem; color: var(--text-2); line-height: 1.6; max-width: 680px; }
+
+.project-row-links { display: flex; gap: .5rem; flex-shrink: 0; align-items: center; }
+
+/* ── Project cards (list page) ──────────────────────────────────────────── */
 .project-card {
   background: var(--bg-subtle);
   padding: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
   display: flex;
   flex-direction: column;
   gap: .65rem;
-  transition: background .15s;
+  transition: border-color .15s, box-shadow .15s;
 }
-.project-card:hover { background: #e5eaf2; }
-.card-grid-2 > .project-card:first-child { border-radius: var(--radius-lg) 0 0 var(--radius-lg); }
-.card-grid-2 > .project-card:last-child  { border-radius: 0 var(--radius-lg) var(--radius-lg) 0; }
-.card-grid-2 > .project-card + .project-card { border-left: 1px solid var(--border); }
+.project-card:hover { border-color: var(--blue); box-shadow: 0 2px 12px rgba(37,99,235,.08); }
+
+.card-grid-2 { display: grid; grid-template-columns: repeat(2,1fr); gap: 1rem; }
 
 .project-card-header {
   display: flex;
@@ -702,12 +834,8 @@ h1, h2, h3, h4 { font-family: var(--font-brand); font-weight: 700; line-height: 
 
 /* ── Responsive ─────────────────────────────────────────────────────────── */
 @media (max-width: 1024px) {
-  .card-grid   { grid-template-columns: 1fr 1fr; }
   .card-grid-4 { grid-template-columns: repeat(2,1fr); }
-  /* fix border-radius for wrapped grids */
-  .card-grid > .post-card:nth-child(2)  { border-radius: 0 var(--radius-lg) var(--radius-lg) 0; }
-  .card-grid > .post-card:nth-child(3)  { border-radius: var(--radius-lg) 0 0 var(--radius-lg); border-left: none; border-top: 1px solid var(--border); }
-  .card-grid > .post-card:nth-child(4)  { border-radius: 0 var(--radius-lg) var(--radius-lg) 0; border-top: 1px solid var(--border); }
+  .card-grid-2 { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 768px) {
@@ -730,18 +858,9 @@ h1, h2, h3, h4 { font-family: var(--font-brand); font-weight: 700; line-height: 
   .hero-name   { font-size: 2rem; }
   .hero-social { justify-content: center; }
 
-  .card-grid, .card-grid-2 {
-    grid-template-columns: 1fr;
-    border-radius: var(--radius-lg);
-  }
-  .card-grid   > .post-card,
-  .card-grid-2 > .post-card,
-  .card-grid-2 > .project-card { border-left: none !important; border-radius: 0 !important; border-top: 1px solid var(--border); }
-  .card-grid   > .post-card:first-child,
-  .card-grid-2 > .post-card:first-child,
-  .card-grid-2 > .project-card:first-child { border-top: none; }
-
   .card-grid-4 { grid-template-columns: repeat(2,1fr); }
+  .project-row { flex-direction: column; gap: .75rem; }
+  .project-row-links { flex-direction: row; }
 
   .project-title { font-size: 2rem; }
   .prose-title   { font-size: 1.7rem; }

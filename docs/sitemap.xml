@@ -5,7 +5,19 @@
     <loc>https://johnjanes.com/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://johnjanes.com/tags/announcement/</loc>
+    <lastmod>2026-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/drezdin-labs/</loc>
+    <lastmod>2026-03-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://johnjanes.com/projects/emugate/</loc>
+    <lastmod>2026-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/tags/emugate/</loc>
+    <lastmod>2026-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/posts/emugate-alpha/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnjanes.com/projects/bevy-gate/</loc>
@@ -14,13 +26,19 @@
     <loc>https://johnjanes.com/projects/orbis-v1/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://johnjanes.com/posts/</loc>
+    <lastmod>2026-03-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://johnjanes.com/projects/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://johnjanes.com/posts/theslop/</loc>
-    <lastmod>2026-03-09T12:27:36-06:00</lastmod>
+    <loc>https://johnjanes.com/tags/retro-gaming/</loc>
+    <lastmod>2026-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://johnjanes.com/posts/</loc>
+    <loc>https://johnjanes.com/tags/</loc>
+    <lastmod>2026-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://johnjanes.com/posts/theslop/</loc>
     <lastmod>2026-03-09T12:27:36-06:00</lastmod>
   </url><url>
     <loc>https://johnjanes.com/tags/ai/</loc>
@@ -60,9 +78,6 @@
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnjanes.com/tags/systems-engineering/</loc>
-    <lastmod>2026-03-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://johnjanes.com/tags/</loc>
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://johnjanes.com/tags/tensor-pipelines/</loc>
