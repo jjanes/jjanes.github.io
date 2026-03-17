@@ -1,58 +1,58 @@
-baseURL = 'https://johnjanes.com/'
+baseURL      = 'https://johnjanes.com/'
 languageCode = 'en-us'
-title = 'John Janes'
-theme = "hugo-theme-m10c"
+title        = 'John Janes'
+theme        = "drezdin"
 
+# GitHub Pages — uncomment to publish to docs/ instead of public/
+# publishDir = "docs"
 
+[markup.goldmark.renderer]
+  unsafe = true   # allows raw HTML in markdown (needed for math blocks, etc.)
 
+# ── Navigation ────────────────────────────────────────────────────────────────
 [[menu.main]]
   identifier = "blog"
   name       = "Blog"
   url        = "/posts/"
+  weight     = 1
+
+[[menu.main]]
+  identifier = "projects"
+  name       = "Projects"
+  url        = "/projects/"
+  weight     = 2
 
 [[menu.main]]
   identifier = "resume"
   name       = "Résumé"
   url        = "/resume/"
-
+  weight     = 3
 
 [[menu.main]]
   identifier = "contact"
-  name       = "Contact Me"
+  name       = "Contact"
   url        = "/contact/"
+  weight     = 4
 
-
+# ── Site Params ───────────────────────────────────────────────────────────────
 [params]
-author      = "John Janes"
-description = "Senior Software Engineer – Many Ninja Custom Software Solutions"
-avatar      = "jj-geek.jpg"      # put avatar.jpg in /static
-favicon     = "/favicon.ico"
+  author      = "John Janes"
+  description = "Senior Software Engineer — systems, games, retro tech, and low-level everything."
+  avatar      = "/jj-geek.jpg"
+  favicon     = "/favicon.ico"
 
-[[params.social]]
-  icon = "brand-github"
-  name = "GitHub"
-  url  = "https://github.com/jjanes"
+  # Streaming
+  kickUsername = "drezdin"
 
-[[params.social]]
-  icon = "brand-x"
-  name = "X"
-  url  = "https://x.com/jjfish"
+  # ── YouTube ──────────────────────────────────────────────────────────────────
+  # To find your channel ID:
+  #   1. Go to https://www.youtube.com/@drezOG
+  #   2. View Page Source (Ctrl+U)
+  #   3. Search for "channelId" — looks like UCxxxxxxxxxxxxxxxxxx
+  # Or run: yt-dlp --print channel_id https://www.youtube.com/@drezOG
+  youtubeChannelId = "YOUR_YOUTUBE_CHANNEL_ID"
 
-
-[[params.social]]
-  icon = "brand-kick"
-  name = "Kick"
-  url  = "https://kick.com/drezdin"
-
-
-
-[[params.social]]
-  icon = "brand-twitch"
-  name = "Twitch"
-  url  = "https://twitch.com/jjfishii"
-
-
-[[params.social]]
-  icon = "brand-linkedin"
-  name = "LinkedIn"
-  url  = "https://linkedin.com/in/johnrjanes"
+  # Optional — only needed for YouTube LIVE detection in the banner.
+  # Get a free key at https://console.cloud.google.com → YouTube Data API v3
+  # Recent videos use the public RSS feed and do NOT need a key.
+  youtubeApiKey = ""

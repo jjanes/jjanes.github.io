@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="prose-layout">
+
+  <header class="prose-header">
+    <h1 class="prose-title">{{ .Title }}</h1>
+    {{ if .Date }}
+    <div class="prose-meta">
+      <span>{{ .Date.Format "January 2, 2006" }}</span>
+    </div>
+    {{ end }}
+  </header>
+
+  <div class="prose-body">
+    {{ .Content }}
+  </div>
+
+</div>
+{{ end }}

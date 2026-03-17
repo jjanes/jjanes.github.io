@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="prose-layout">
+
+  <header class="prose-header">
+    <h1 class="prose-title">{{ .Title }}</h1>
+    <div class="prose-meta">
+      <span>{{ .Date.Format "January 2, 2006" }}</span>
+      {{ with .Params.tags }}
+      <span>·</span>
+      {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+      {{ end }}
+      {{ if .Params.featured }}
+      <span class="badge-featured">Featured</span>
+      {{ end }}
+    </div>
+  </header>
+
+  <div class="prose-body">
+    {{ .Content }}
+  </div>
+
+  <hr class="divider">
+  <p style="font-size:0.85rem;color:var(--text-3);">
+    <a href="/posts/">← All posts</a>
+  </p>
+
+</div>
+{{ end }}

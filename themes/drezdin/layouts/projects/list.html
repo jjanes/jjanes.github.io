@@ -1,0 +1,48 @@
+{{ define "main" }}
+<div class="list-layout">
+
+  <header class="list-header">
+    <h1 class="list-page-title">Projects</h1>
+    <p class="list-page-desc">Things I'm building. Systems, games, tools, and experiments.</p>
+  </header>
+
+  <div class="card-grid-2">
+    {{ range .Pages }}
+    <article class="project-card">
+      <div class="project-card-body">
+        <div class="project-card-header">
+          <h2 class="project-card-title">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h2>
+          {{ with .Params.status }}
+          <span class="status-badge status-{{ . }}">{{ . }}</span>
+          {{ end }}
+        </div>
+        <p class="project-card-summary">
+          {{ .Params.summary | default (.Summary | truncate 160) }}
+        </p>
+        {{ with .Params.tech }}
+        <div class="tag-row">
+          {{ range first 5 . }}<span class="tag tag-blue">{{ . }}</span>{{ end }}
+        </div>
+        {{ end }}
+        <div class="project-card-footer">
+          <a href="{{ .RelPermalink }}" class="btn btn-outline btn-sm">Details</a>
+          {{ with .Params.project_url }}
+          <a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+            Visit ↗
+          </a>
+          {{ end }}
+          {{ with .Params.github_url }}
+          <a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+            GitHub
+          </a>
+          {{ end }}
+        </div>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+
+</div>
+{{ end }}

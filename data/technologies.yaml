@@ -1,0 +1,64 @@
+categories:
+  - name: "Systems Languages"
+    items:
+      - name: "Zig"
+        color: "#f7a41d"
+      - name: "Rust"
+        color: "#ce422b"
+      - name: "Go"
+        color: "#00add8"
+      - name: "C"
+        color: "#a8b9cc"
+
+  - name: "Game & Graphics"
+    items:
+      - name: "Bevy"
+        color: "#2563eb"
+      - name: "LibRetro"
+        color: "#6b7280"
+      - name: "Rapier3D"
+        color: "#f59e0b"
+      - name: "WGPU"
+        color: "#8b5cf6"
+
+  - name: "AI / ML & Inference"
+    items:
+      - name: "ONNX / ORT"
+        color: "#005caf"
+      - name: "ROC-m"
+        color: "#ef4444"
+      - name: "Custom Inference"
+        color: "#10b981"
+
+  - name: "Video & Streaming"
+    items:
+      - name: "H.264"
+        color: "#6366f1"
+      - name: "WebSocket"
+        color: "#2563eb"
+      - name: "FFmpeg"
+        color: "#078b40"
+      - name: "OBS"
+        color: "#302e31"
+
+  - name: "Infrastructure"
+    items:
+      - name: "NixOS"
+        color: "#5277c3"
+      - name: "Linux"
+        color: "#f7a41d"
+      - name: "Redis"
+        color: "#dc382d"
+      - name: "Tokio"
+        color: "#2563eb"
+
+  - name: "Web & Scripting"
+    items:
+      - name: "WASM"
+        color: "#654ff0"
+      - name: "Axum"
+        color: "#ce422b"
+      - name: "Lua"
+        color: "#000080"
+      - name: "JavaScript"
+        color: "#f7df1e"

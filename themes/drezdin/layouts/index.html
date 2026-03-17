@@ -1,0 +1,215 @@
+{{ define "main" }}
+
+{{/* ── HERO ──────────────────────────────────────────────────────────────── */}}
+<section class="hero">
+  <div class="hero-inner">
+    {{ with .Site.Params.avatar }}
+    <img src="{{ . }}" alt="{{ $.Site.Params.author }}" class="hero-avatar">
+    {{ end }}
+    <div>
+      <h1 class="hero-name">
+        {{ .Site.Params.author | default .Site.Title }}
+        <span>.</span>
+      </h1>
+      <p class="hero-tagline">{{ .Site.Params.description }}</p>
+      <div class="hero-social">
+        <a href="https://github.com/jjanes"          target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          GitHub
+        </a>
+        <a href="https://kick.com/drezdin"           target="_blank" rel="noopener">Kick</a>
+        <a href="https://youtube.com/@drezOG"        target="_blank" rel="noopener">YouTube</a>
+        <a href="https://x.com/jjfish"               target="_blank" rel="noopener">X</a>
+        <a href="/resume/" >Résumé</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* ── FEATURED POSTS ───────────────────────────────────────────────────── */}}
+{{ $featured := where (where .Site.RegularPages "Section" "posts") ".Params.featured" true }}
+{{ if $featured }}
+<section class="home-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Featured Posts</h2>
+      <a href="/posts/" class="section-link">All posts →</a>
+    </div>
+    <div class="card-grid">
+      {{ range $featured }}
+      <article class="post-card">
+        <div class="post-card-meta">
+          <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+          <span class="badge-featured">Featured</span>
+        </div>
+        <h3 class="post-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="post-card-summary">{{ .Summary | truncate 120 }}</p>
+        {{ with .Params.tags }}
+        <div class="tag-row">
+          {{ range first 3 . }}<span class="tag">{{ . }}</span>{{ end }}
+        </div>
+        {{ end }}
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* ── RECENT POSTS (if no featured posts set yet) ─────────────────────── */}}
+{{ if not $featured }}
+<section class="home-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Recent Posts</h2>
+      <a href="/posts/" class="section-link">All posts →</a>
+    </div>
+    <div class="card-grid">
+      {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+      <article class="post-card">
+        <div class="post-card-meta">
+          <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+        </div>
+        <h3 class="post-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="post-card-summary">{{ .Summary | truncate 120 }}</p>
+        {{ with .Params.tags }}
+        <div class="tag-row">
+          {{ range first 3 . }}<span class="tag">{{ . }}</span>{{ end }}
+        </div>
+        {{ end }}
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* ── PROJECTS ─────────────────────────────────────────────────────────── */}}
+{{ $projects := where .Site.RegularPages "Section" "projects" }}
+{{ if $projects }}
+<section class="home-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Projects</h2>
+      <a href="/projects/" class="section-link">All projects →</a>
+    </div>
+    <div class="card-grid-2">
+      {{ range $projects }}
+      <article class="project-card">
+        <div class="project-card-body">
+          <div class="project-card-header">
+            <h3 class="project-card-title">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h3>
+            {{ with .Params.status }}
+            <span class="status-badge status-{{ . }}">{{ . }}</span>
+            {{ end }}
+          </div>
+          <p class="project-card-summary">{{ .Params.summary | default (.Summary | truncate 140) }}</p>
+          {{ with .Params.tech }}
+          <div class="tag-row">
+            {{ range first 4 . }}<span class="tag tag-blue">{{ . }}</span>{{ end }}
+          </div>
+          {{ end }}
+          <div class="project-card-footer">
+            <a href="{{ .RelPermalink }}" class="btn btn-outline btn-sm">Details</a>
+            {{ with .Params.project_url }}
+            <a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+              Visit ↗
+            </a>
+            {{ end }}
+          </div>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* ── YOUTUBE RECENT VIDEOS ────────────────────────────────────────────── */}}
+{{ $ytId := .Site.Params.youtubeChannelId }}
+{{ if and $ytId (ne $ytId "YOUR_YOUTUBE_CHANNEL_ID") }}
+<section class="home-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Recent Streams & Videos</h2>
+      <a href="https://youtube.com/@drezOG" target="_blank" rel="noopener" class="section-link">
+        @drezOG on YouTube ↗
+      </a>
+    </div>
+
+    {{ $feedURL := printf "https://www.youtube.com/feeds/videos.xml?channel_id=%s" $ytId }}
+    {{ with try (resources.GetRemote $feedURL) }}
+      {{ with .Err }}
+        <!-- YouTube feed unavailable at build time -->
+      {{ else with .Value }}
+        {{ $raw := .Content | printf "%s" }}
+        {{ $idMatches := findRESubmatch `<yt:videoId>([^<]+)</yt:videoId>` $raw }}
+        {{ $titleMatches := findRESubmatch `<title><!\[CDATA\[([^\]]+)\]\]>|<title>([^<]+)</title>` $raw }}
+
+        <div class="card-grid-4">
+        {{ range $i, $m := first 8 $idMatches }}
+          {{ $vid := index $m 1 }}
+          {{ $title := "" }}
+          {{/* titles: index 0 is feed title, entries start at 1 */}}
+          {{ with index $titleMatches (add $i 1) }}
+            {{ if index . 1 }}
+              {{ $title = index . 1 }}
+            {{ else if index . 2 }}
+              {{ $title = index . 2 }}
+            {{ end }}
+          {{ end }}
+          <a href="https://www.youtube.com/watch?v={{ $vid }}"
+             target="_blank" rel="noopener" class="yt-card">
+            <div class="yt-thumb">
+              <img src="https://img.youtube.com/vi/{{ $vid }}/mqdefault.jpg"
+                   alt="{{ $title }}" loading="lazy">
+              <div class="yt-play-overlay">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                     viewBox="0 0 24 24" fill="currentColor">
+                  <circle cx="12" cy="12" r="10" fill="rgba(0,0,0,0.6)"/>
+                  <polygon points="10,8 16,12 10,16" fill="white"/>
+                </svg>
+              </div>
+            </div>
+            <div class="yt-info">
+              <p class="yt-title">{{ $title | htmlUnescape }}</p>
+            </div>
+          </a>
+        {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+
+  </div>
+</section>
+{{ end }}
+
+{{/* ── TECH STACK ───────────────────────────────────────────────────────── */}}
+{{ with .Site.Data.technologies }}
+<section class="home-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Technologies</h2>
+    </div>
+    <div class="tech-grid">
+      {{ range .categories }}
+      <div class="tech-category">
+        <div class="tech-cat-label">{{ .name }}</div>
+        <div class="tech-items">
+          {{ range .items }}
+          <div class="tech-pill">
+            <span class="tech-dot" style="background:{{ .color }}"></span>
+            {{ .name }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}
