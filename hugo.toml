@@ -50,7 +50,7 @@ theme        = "drezdin"
   #   2. View Page Source (Ctrl+U)
   #   3. Search for "channelId" — looks like UCxxxxxxxxxxxxxxxxxx
   # Or run: yt-dlp --print channel_id https://www.youtube.com/@drezOG
-  youtubeChannelId = "YOUR_YOUTUBE_CHANNEL_ID"
+  youtubeChannelId = "UCx7tk6qQRq5OT1FYIGiS6cg"
 
   # Optional — only needed for YouTube LIVE detection in the banner.
   # Get a free key at https://console.cloud.google.com → YouTube Data API v3

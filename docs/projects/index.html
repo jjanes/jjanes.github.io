@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Llm | John Janes</title>
-  <meta name="description" content="Senior Software Engineer — systems, games, retro tech, and low-level everything.">
+  <title>Projects | John Janes</title>
+  <meta name="description" content="Things I&#39;m building — games, tools, video tech, and systems software.">
   <meta name="color-scheme" content="light">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -80,17 +80,67 @@
 <div class="list-layout">
 
   <header class="list-header">
-    <h1 class="list-page-title">Llm</h1>
+    <h1 class="list-page-title">Projects</h1>
+    <p class="list-page-desc">Things I'm building. Systems, games, tools, and experiments.</p>
   </header>
 
-  <div class="post-list">
+  <div class="card-grid-2">
     
-    <div class="post-list-item">
-      <span class="post-list-date">Mar 2, 2026</span>
-      <div class="post-list-title">
-        <a href="/posts/thezoo/">THE ZOO</a>
+    <article class="project-card">
+      <div class="project-card-body">
+        <div class="project-card-header">
+          <h2 class="project-card-title">
+            <a href="/projects/emugate/">Emugate</a>
+          </h2>
+          
+          <span class="status-badge status-active">active</span>
+          
+        </div>
+        <p class="project-card-summary">
+          Browser-based multiplayer retro gaming platform. Stream classic games in real-time over H.264/WebSocket — no plugins, no installs, up to 4 players.
+        </p>
+        
+        <div class="tag-row">
+          <span class="tag tag-blue">Zig</span><span class="tag tag-blue">LibRetro</span><span class="tag tag-blue">WebSocket</span><span class="tag tag-blue">H.264</span><span class="tag tag-blue">Go</span>
+        </div>
+        
+        <div class="project-card-footer">
+          <a href="/projects/emugate/" class="btn btn-outline btn-sm">Details</a>
+          
+          <a href="https://drezdin.com" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+            Visit ↗
+          </a>
+          
+          
+        </div>
       </div>
-    </div>
+    </article>
+    
+    <article class="project-card">
+      <div class="project-card-body">
+        <div class="project-card-header">
+          <h2 class="project-card-title">
+            <a href="/projects/bevy-gate/">Gate Bevy</a>
+          </h2>
+          
+          <span class="status-badge status-wip">wip</span>
+          
+        </div>
+        <p class="project-card-summary">
+          Multiplayer 3D action game engine and world editor built on Bevy. Third-person gameplay, dedicated server, Lua-scripted UI, and a browser-based map editor.
+        </p>
+        
+        <div class="tag-row">
+          <span class="tag tag-blue">Rust</span><span class="tag tag-blue">Bevy</span><span class="tag tag-blue">Rapier3D</span><span class="tag tag-blue">Lightyear</span><span class="tag tag-blue">Lua</span>
+        </div>
+        
+        <div class="project-card-footer">
+          <a href="/projects/bevy-gate/" class="btn btn-outline btn-sm">Details</a>
+          
+          
+        </div>
+      </div>
+    </article>
     
   </div>
 

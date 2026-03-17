@@ -11,6 +11,10 @@
     {{- end -}}
   </title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="color-scheme" content="light">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="icon" href="{{ .Site.Params.favicon | default "/favicon.ico" }}">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="/index.xml">
@@ -71,7 +75,7 @@
         <a href="https://linkedin.com/in/johnrjanes"  target="_blank" rel="noopener">LinkedIn</a>
         <a href="https://drezdin.com"                 target="_blank" rel="noopener">Drezdin Labs</a>
       </div>
-      <p class="footer-copy">© {{ now.Year }} John Janes</p>
+      <p class="footer-copy">&copy; {{ now.Year }} John Janes. All rights reserved.</p>
     </div>
   </footer>
 

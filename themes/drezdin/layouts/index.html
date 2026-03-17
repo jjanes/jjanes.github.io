@@ -38,7 +38,7 @@
     <div class="card-grid">
       {{ range $featured }}
       <article class="post-card">
-        <div class="post-card-meta">
+        <div class="post-card-date">
           <span>{{ .Date.Format "Jan 2, 2006" }}</span>
           <span class="badge-featured">Featured</span>
         </div>
@@ -67,7 +67,7 @@
     <div class="card-grid">
       {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
       <article class="post-card">
-        <div class="post-card-meta">
+        <div class="post-card-date">
           <span>{{ .Date.Format "Jan 2, 2006" }}</span>
         </div>
         <h3 class="post-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
