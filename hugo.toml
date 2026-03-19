@@ -1,10 +1,10 @@
-baseURL      = 'https://johnjanes.com/'
+baseURL      = 'https://janes.co/'
 languageCode = 'en-us'
 title        = 'John Janes'
 theme        = "drezdin"
 
-# GitHub Pages — uncomment to publish to docs/ instead of public/
-# publishDir = "docs"
+# GitHub Pages — publish the generated site to docs/
+publishDir = "docs"
 
 [markup.goldmark.renderer]
   unsafe = true   # allows raw HTML in markdown (needed for math blocks, etc.)
