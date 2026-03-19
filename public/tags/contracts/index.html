@@ -1,10 +1,134 @@
-<!doctype html><html lang=en><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Contracts | John Janes</title>
-<meta name=description content="Senior Software Engineer — systems, games, retro tech, and low-level everything."><meta name=color-scheme content="light"><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel=stylesheet><link rel=icon href=/favicon.ico><link rel=stylesheet href=/css/main.css><link rel=alternate type=application/rss+xml title="John Janes" href=/index.xml><script async src="https://www.googletagmanager.com/gtag/js?id=G-PC1TW04WSF"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-PC1TW04WSF")</script></head><body><header class=site-header><div class=nav-inner><a href=/ class=nav-logo>John Janes</a>
-<button class=nav-toggle id=nav-toggle aria-label="Toggle navigation">
-<span></span><span></span><span></span></button><ul class=nav-links id=nav-links><li><a href=/posts/>Blog</a></li><li><a href=/projects/>Projects</a></li><li><a href=/resume/>Résumé</a></li><li><a href=/contact/>Contact</a></li><li><a href=https://github.com/jjanes target=_blank rel=noopener class=nav-icon-link aria-label=GitHub><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg></a></li></ul></div></header><div id=live-banner class=live-banner style=display:none></div><main class=site-main><div class=list-layout><header class=list-header><h1 class=list-page-title>Contracts</h1></header><div class=post-list><div class=post-list-item><span class=post-list-date>Mar 2, 2026</span><div class=post-list-title><a href=/posts/dcq/>Dead Contract Queue: Cascading Multi-Layer Contract Execution</a></div></div></div></div></main><footer class=site-footer><div class=footer-inner><div class=footer-links><a href=https://github.com/jjanes target=_blank rel=noopener>GitHub</a>
-<a href=https://kick.com/drezdin target=_blank rel=noopener>Kick</a>
-<a href=https://youtube.com/@drezOG target=_blank rel=noopener>YouTube</a>
-<a href=https://x.com/jjfish target=_blank rel=noopener>X</a>
-<a href=https://twitch.tv/jjfishii target=_blank rel=noopener>Twitch</a>
-<a href=https://linkedin.com/in/johnrjanes target=_blank rel=noopener>LinkedIn</a>
-<a href=https://drezdin.com target=_blank rel=noopener>Drezdin Labs</a></div><p class=footer-copy>&copy; 2026 John Janes. All rights reserved.</p></div></footer><script>window.SITE_CONFIG={kickUsername:"drezdin",youtubeChannelId:"UCx7tk6qQRq5OT1FYIGiS6cg",youtubeApiKey:""}</script><script src=/js/live.js defer></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contracts | John Janes</title>
+  <meta name="description" content="Senior Software Engineer — systems, games, retro tech, and low-level everything.">
+  <meta name="color-scheme" content="light">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="alternate" type="application/rss+xml" title="John Janes" href="/index.xml">
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PC1TW04WSF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PC1TW04WSF');
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">John Janes</a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        
+        <li>
+          <a href="/posts/"
+             >
+            Blog
+          </a>
+        </li>
+        
+        <li>
+          <a href="/projects/"
+             >
+            Projects
+          </a>
+        </li>
+        
+        <li>
+          <a href="/resume/"
+             >
+            Résumé
+          </a>
+        </li>
+        
+        <li>
+          <a href="/contact/"
+             >
+            Contact
+          </a>
+        </li>
+        
+        <li>
+          <a href="https://github.com/jjanes" target="_blank" rel="noopener"
+             class="nav-icon-link" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61
+                       c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77
+                       5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0
+                       C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77
+                       a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7
+                       A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  
+  <div id="live-banner" class="live-banner" style="display:none"></div>
+
+  <main class="site-main">
+    
+<div class="list-layout">
+
+  <header class="list-header">
+    <h1 class="list-page-title">Contracts</h1>
+  </header>
+
+  <div class="post-list">
+    
+    <div class="post-list-item">
+      <span class="post-list-date">Mar 2, 2026</span>
+      <div class="post-list-title">
+        <a href="/posts/dcq/">Dead Contract Queue: Cascading Multi-Layer Contract Execution</a>
+      </div>
+    </div>
+    
+  </div>
+
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="https://github.com/jjanes"           target="_blank" rel="noopener">GitHub</a>
+        <a href="https://kick.com/drezdin"            target="_blank" rel="noopener">Kick</a>
+        <a href="https://youtube.com/@drezOG"         target="_blank" rel="noopener">YouTube</a>
+        <a href="https://x.com/jjfish"                target="_blank" rel="noopener">X</a>
+        <a href="https://twitch.tv/jjfishii"          target="_blank" rel="noopener">Twitch</a>
+        <a href="https://linkedin.com/in/johnrjanes"  target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://drezdin.com"                 target="_blank" rel="noopener">Drezdin Labs</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 John Janes. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    window.SITE_CONFIG = {
+      kickUsername:     "drezdin",
+      youtubeChannelId: "UCx7tk6qQRq5OT1FYIGiS6cg",
+      youtubeApiKey:    ""
+    };
+  </script>
+  <script src="/js/live.js" defer></script>
+
+</body>
+</html>

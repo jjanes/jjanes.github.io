@@ -15,70 +15,51 @@ github_url: ""
 # ─────────────────────────────────────────────────────────────────────────────
 media:
   - enabled: true
-    type: "video"
-    src: "/vids/Screencast_20260206_000341.webm"
-    poster: ""
-    caption: "Early world editor session — placing structures, testing terrain, and working out the RON-based level format."
+    type: "image"
+    src: "/bevy-gate-browser-based-wam-map-builder-spawn3d-map-builder.png"
+    caption: "Browser-based map builder pass for Gate Bevy. Spawning and arranging 3D content from a web UI is the direction for fast world-authoring."
 
   - enabled: true
     type: "video"
-    src: "/vids/Screencast_20260206_001832.webm"
+    src: "/vids/bevy-gate-first.webm"
     poster: ""
-    caption: "Third-person controller rebuild using bevy-tnua and Rapier. Center-screen raycasting for aim, smoother camera handling."
+    caption: "First proper Gate Bevy gameplay clip. Rough around the edges, but this is the point where the project starts to read as an actual game."
 
-  - enabled: false
+  - enabled: true
     type: "video"
-    src: "/vids/Screencast_20260206_003518.webm"
+    src: "/vids/bevy-gte-char-select.webm"
     poster: ""
-    caption: "Add your caption here."
+    caption: "Character select prototype for the Bevy client. Early UI work, but it shows the direction for player-facing flow before entering the world."
 
-  - enabled: false
+  - enabled: true
     type: "video"
-    src: "/vids/Screencast_20260206_163139.webm"
+    src: "/vids/Screencast_20260312_200626.webm"
     poster: ""
-    caption: "Add your caption here."
+    caption: "March browser-editor progress clip. More of the web tooling is becoming usable for direct world-building instead of just being scaffolding."
 
-  - enabled: false
+  - enabled: true
     type: "video"
-    src: "/vids/Screencast_20260206_164336.webm"
+    src: "/vids/Screencast_20260312_200704.webm"
     poster: ""
-    caption: "Add your caption here."
+    caption: "Follow-up browser-based builder pass with tighter spawning and map manipulation. The gap between engine tools and web tools keeps shrinking."
 
-  - enabled: false
+  - enabled: true
     type: "video"
-    src: "/vids/Screencast_20260206_213114.webm"
+    src: "/vids/Screencast_20260312_211304.webm"
     poster: ""
-    caption: "Add your caption here."
+    caption: "Longer March checkpoint showing the browser-side editor moving toward something practical enough to use daily."
 
-  - enabled: false
+  - enabled: true
     type: "video"
-    src: "/vids/Screencast_20260211_021231.webm"
+    src: "/vids/bevy-gate-bloopers.webm"
     poster: ""
-    caption: "Add your caption here."
+    caption: "Blooper reel from Gate Bevy development. Networking glitches, controller weirdness, and the usual physics disrespect."
 
-  - enabled: false
+  - enabled: true
     type: "video"
-    src: "/vids/Screencast_20260211_102929.webm"
+    src: "/vids/bevygate-blooper.webm"
     poster: ""
-    caption: "Add your caption here."
-
-  - enabled: false
-    type: "video"
-    src: "/vids/Screencast_20260223_114519.webm"
-    poster: ""
-    caption: "Add your caption here."
-
-  - enabled: false
-    type: "video"
-    src: "/vids/Screencast_20260224_124858.webm"
-    poster: ""
-    caption: "Add your caption here."
-
-  - enabled: false
-    type: "video"
-    src: "/vids/Screencast_20260228_171618.webm"
-    poster: ""
-    caption: "Add your caption here."
+    caption: "Another small failure montage from the Bevy side of the project. Worth keeping because it shows the actual texture of iteration."
 
   - enabled: false
     type: "image"

@@ -1,15 +1,176 @@
-<!doctype html><html lang=en><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Emugate Alpha — Register Now | John Janes</title>
-<meta name=description content="Senior Software Engineer — systems, games, retro tech, and low-level everything."><meta name=color-scheme content="light"><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel=stylesheet><link rel=icon href=/favicon.ico><link rel=stylesheet href=/css/main.css><link rel=alternate type=application/rss+xml title="John Janes" href=/index.xml><script async src="https://www.googletagmanager.com/gtag/js?id=G-PC1TW04WSF"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-PC1TW04WSF")</script></head><body><header class=site-header><div class=nav-inner><a href=/ class=nav-logo>John Janes</a>
-<button class=nav-toggle id=nav-toggle aria-label="Toggle navigation">
-<span></span><span></span><span></span></button><ul class=nav-links id=nav-links><li><a href=/posts/>Blog</a></li><li><a href=/projects/>Projects</a></li><li><a href=/resume/>Résumé</a></li><li><a href=/contact/>Contact</a></li><li><a href=https://github.com/jjanes target=_blank rel=noopener class=nav-icon-link aria-label=GitHub><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg></a></li></ul></div></header><div id=live-banner class=live-banner style=display:none></div><main class=site-main><div class=prose-layout><header class=prose-header><h1 class=prose-title>Emugate Alpha — Register Now</h1><div class=prose-meta><span>March 17, 2026</span>
-<span>·</span>
-<span class=tag>emugate</span><span class=tag>drezdin-labs</span><span class=tag>retro-gaming</span><span class=tag>announcement</span>
-<span class=badge-featured>Featured</span></div></header><div class=prose-body><p>Emugate is open for alpha testing. If you want in, head to <a href=https://drezdin.com>drezdin.com</a> and register.</p><h2 id=what-is-emugate>What is Emugate</h2><p>Emugate is a browser-based multiplayer retro gaming platform built under Drezdin Labs. The pitch is simple: classic games, in your browser, with friends. No plugins. No emulator installs. No ROM management. Just a URL and up to four players.</p><p>The tech stack is a bit unusual. Most browser game streaming projects reach for WebRTC. I went a different direction — H.264 video streams over WebSocket. It works cleanly behind Cloudflare tunnels and standard reverse proxies without any NAT traversal headaches. The emulation runs server-side via LibRetro cores.</p><figure><img src=/emugate.png alt="Emugate — account and session interface"></figure><h2 id=whats-supported>What&rsquo;s supported</h2><ul><li><strong>Consoles</strong>: NES, SNES, GBA, PS1, N64, and anything with a LibRetro core</li><li><strong>Multiplayer</strong>: Up to 4 concurrent players + observer slots</li><li><strong>Session features</strong>: Save states, player profiles, kick/ban, session management</li><li><strong>Zero client install</strong>: Works in any modern browser</li></ul><h2 id=alpha-registration>Alpha registration</h2><p>Head to <a href=https://drezdin.com>drezdin.com</a> to register for the alpha. Accounts are going out in batches. I want real feedback on latency, input feel, and the session management flow before opening it up further.</p><h2 id=videos>Videos</h2><p>A few recordings from recent sessions:</p><div class=prose-video><video controls preload=metadata>
-<source src=/vids/Screencast_20251203_215927.webm type=video/webm><source src=/vids/Screencast_20251203_215927.webm type=video/mp4></video></div><div class=prose-video><video controls preload=metadata>
-<source src=/vids/Screencast_20251204_182403.webm type=video/webm><source src=/vids/Screencast_20251204_182403.webm type=video/mp4></video></div><p>More to come as the alpha progresses. Follow on <a href=https://kick.com/drezdin>Kick</a> or <a href=https://youtube.com/@drezOG>YouTube</a> — I stream Emugate sessions regularly.</p></div><hr class=divider><p style=font-size:.85rem;color:var(--text-3)><a href=/posts/>← All posts</a></p></div></main><footer class=site-footer><div class=footer-inner><div class=footer-links><a href=https://github.com/jjanes target=_blank rel=noopener>GitHub</a>
-<a href=https://kick.com/drezdin target=_blank rel=noopener>Kick</a>
-<a href=https://youtube.com/@drezOG target=_blank rel=noopener>YouTube</a>
-<a href=https://x.com/jjfish target=_blank rel=noopener>X</a>
-<a href=https://twitch.tv/jjfishii target=_blank rel=noopener>Twitch</a>
-<a href=https://linkedin.com/in/johnrjanes target=_blank rel=noopener>LinkedIn</a>
-<a href=https://drezdin.com target=_blank rel=noopener>Drezdin Labs</a></div><p class=footer-copy>&copy; 2026 John Janes. All rights reserved.</p></div></footer><script>window.SITE_CONFIG={kickUsername:"drezdin",youtubeChannelId:"UCx7tk6qQRq5OT1FYIGiS6cg",youtubeApiKey:""}</script><script src=/js/live.js defer></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emugate Alpha — Register Now | John Janes</title>
+  <meta name="description" content="Senior Software Engineer — systems, games, retro tech, and low-level everything.">
+  <meta name="color-scheme" content="light">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="alternate" type="application/rss+xml" title="John Janes" href="/index.xml">
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PC1TW04WSF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PC1TW04WSF');
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">John Janes</a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        
+        <li>
+          <a href="/posts/"
+             >
+            Blog
+          </a>
+        </li>
+        
+        <li>
+          <a href="/projects/"
+             >
+            Projects
+          </a>
+        </li>
+        
+        <li>
+          <a href="/resume/"
+             >
+            Résumé
+          </a>
+        </li>
+        
+        <li>
+          <a href="/contact/"
+             >
+            Contact
+          </a>
+        </li>
+        
+        <li>
+          <a href="https://github.com/jjanes" target="_blank" rel="noopener"
+             class="nav-icon-link" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61
+                       c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77
+                       5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0
+                       C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77
+                       a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7
+                       A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  
+  <div id="live-banner" class="live-banner" style="display:none"></div>
+
+  <main class="site-main">
+    
+<div class="prose-layout">
+
+  <header class="prose-header">
+    <h1 class="prose-title">Emugate Alpha — Register Now</h1>
+    <div class="prose-meta">
+      <span>March 17, 2026</span>
+      
+      <span>·</span>
+      <span class="tag">emugate</span><span class="tag">drezdin-labs</span><span class="tag">retro-gaming</span><span class="tag">announcement</span>
+      
+      
+      <span class="badge-featured">Featured</span>
+      
+    </div>
+  </header>
+
+  <div class="prose-body">
+    <p>Emugate is open for alpha testing. If you want in, head to <a href="https://drezdin.com">drezdin.com</a> and register.</p>
+<h2 id="what-is-emugate">What is Emugate</h2>
+<p>Emugate is a browser-based multiplayer retro gaming platform built under Drezdin Labs. The pitch is simple: classic games, in your browser, with friends. No plugins. No emulator installs. No ROM management. Just a URL and up to four players.</p>
+<p>The tech stack is a bit unusual. Most browser game streaming projects reach for WebRTC. I went a different direction — H.264 video streams over WebSocket. It works cleanly behind Cloudflare tunnels and standard reverse proxies without any NAT traversal headaches. The emulation runs server-side via LibRetro cores.</p>
+<figure><img src="/emugate.png"
+    alt="Emugate — account and session interface">
+</figure>
+
+<h2 id="whats-supported">What&rsquo;s supported</h2>
+<ul>
+<li><strong>Consoles</strong>: NES, SNES, GBA, PS1, N64, and anything with a LibRetro core</li>
+<li><strong>Multiplayer</strong>: Up to 4 concurrent players + observer slots</li>
+<li><strong>Session features</strong>: Save states, player profiles, kick/ban, session management</li>
+<li><strong>Zero client install</strong>: Works in any modern browser</li>
+</ul>
+<h2 id="alpha-registration">Alpha registration</h2>
+<p>Head to <a href="https://drezdin.com">drezdin.com</a> to register for the alpha. Accounts are going out in batches. I want real feedback on latency, input feel, and the session management flow before opening it up further.</p>
+<h2 id="videos">Videos</h2>
+<p>A few recordings from recent sessions:</p>
+<div class="prose-video">
+  <video controls preload="metadata">
+    <source src="/vids/Screencast_20251203_215927.webm" type="video/webm">
+    <source src="/vids/Screencast_20251203_215927.webm" type="video/mp4">
+  </video>
+</div>
+
+<div class="prose-video">
+  <video controls preload="metadata">
+    <source src="/vids/Screencast_20251204_182403.webm" type="video/webm">
+    <source src="/vids/Screencast_20251204_182403.webm" type="video/mp4">
+  </video>
+</div>
+
+<p>More to come as the alpha progresses. Follow on <a href="https://kick.com/drezdin">Kick</a> or <a href="https://youtube.com/@drezOG">YouTube</a> — I stream Emugate sessions regularly.</p>
+
+  </div>
+
+  <hr class="divider">
+  <p style="font-size:0.85rem;color:var(--text-3);">
+    <a href="/posts/">← All posts</a>
+  </p>
+
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="https://github.com/jjanes"           target="_blank" rel="noopener">GitHub</a>
+        <a href="https://kick.com/drezdin"            target="_blank" rel="noopener">Kick</a>
+        <a href="https://youtube.com/@drezOG"         target="_blank" rel="noopener">YouTube</a>
+        <a href="https://x.com/jjfish"                target="_blank" rel="noopener">X</a>
+        <a href="https://twitch.tv/jjfishii"          target="_blank" rel="noopener">Twitch</a>
+        <a href="https://linkedin.com/in/johnrjanes"  target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://drezdin.com"                 target="_blank" rel="noopener">Drezdin Labs</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 John Janes. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    window.SITE_CONFIG = {
+      kickUsername:     "drezdin",
+      youtubeChannelId: "UCx7tk6qQRq5OT1FYIGiS6cg",
+      youtubeApiKey:    ""
+    };
+  </script>
+  <script src="/js/live.js" defer></script>
+
+</body>
+</html>

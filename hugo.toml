@@ -38,7 +38,7 @@ theme        = "drezdin"
 [params]
   author      = "John Janes"
   description = "Senior Software Engineer — systems, games, retro tech, and low-level everything."
-  avatar      = "/jj-geek.jpg"
+  avatar      = "/drezdin-avatar-crop.jpg"
   favicon     = "/favicon.ico"
 
   # Streaming

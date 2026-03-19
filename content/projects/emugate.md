@@ -18,6 +18,18 @@ github_url: ""
 media:
   - enabled: true
     type: "video"
+    src: "/vids/emugae-early-first-test.webm"
+    poster: ""
+    caption: "Very early Emugate test clip. Crude, but it captures the original proof that browser-based emulator streaming was viable."
+
+  - enabled: true
+    type: "video"
+    src: "/vids/emugate-drezdlabs-first-conept-cool-debug-screen-emugate.webm"
+    poster: ""
+    caption: "First Drezdin Labs-era Emugate concept screen with heavy debug UI still visible. The platform idea is already there even if the presentation is not."
+
+  - enabled: true
+    type: "video"
     src: "/vids/Screencast_20251203_215927.webm"
     poster: ""
     caption: "First recorded session — early Emugate prototype running locally. H.264 stream over WebSocket, no WebRTC required."
@@ -28,23 +40,41 @@ media:
     poster: ""
     caption: "Input handling and session management — player slots, observer mode, and the kick/ban system coming together."
 
-  - enabled: false
+  - enabled: true
     type: "video"
     src: "/vids/Screencast_20251204_223709.webm"
     poster: ""
-    caption: "Add your caption here."
+    caption: "Session UX keeps improving here. More of the operator-side controls and multiplayer room management are starting to settle."
 
-  - enabled: false
+  - enabled: true
     type: "video"
     src: "/vids/Screencast_20251205_092049.webm"
     poster: ""
-    caption: "Add your caption here."
+    caption: "Another early product pass focused on reliability and flow. Less pure streaming demo, more recognizable multiplayer platform."
 
-  - enabled: false
+  - enabled: true
     type: "video"
     src: "/vids/Screencast_20251210_121735.webm"
     poster: ""
-    caption: "Add your caption here."
+    caption: "December checkpoint showing the project maturing past the first prototype stage. Core streaming, sessions, and browser UX are all improving together."
+
+  - enabled: true
+    type: "video"
+    src: "/vids/emugate-comparing-encoding-video.webm"
+    poster: ""
+    caption: "Encoding comparison work for Emugate. This kind of testing matters because the whole platform lives or dies on stream quality versus latency."
+
+  - enabled: true
+    type: "video"
+    src: "/vids/emugate-signup-page-first-pass.webm"
+    poster: ""
+    caption: "First pass on account creation and onboarding. A good emulator backend is not enough by itself; the product surface has to be coherent too."
+
+  - enabled: true
+    type: "video"
+    src: "/vids/emugate-discord login.webm"
+    poster: ""
+    caption: "Discord login integration for Emugate. This is the sort of practical auth work that makes a multiplayer platform easier to adopt."
 
   - enabled: false
     type: "image"
