@@ -3,7 +3,7 @@ title: "Emugate Alpha — Register Now"
 date: 2026-03-17
 featured: true
 announcement: true
-announcement_image: "/emugate.png"
+announcement_image: "/emugate.webp"
 announcement_label: "Drezdin Labs"
 tags: ["emugate", "drezdin-labs", "retro-gaming", "announcement"]
 summary: "Emugate alpha testing is open. Browser-based multiplayer retro gaming — NES, SNES, GBA, PS1, N64, and more. No installs, no plugins. Register at drezdin.com."
@@ -17,7 +17,7 @@ Emugate is a browser-based multiplayer retro gaming platform built under Drezdin
 
 The tech stack is a bit unusual. Most browser game streaming projects reach for WebRTC. I went a different direction — H.264 video streams over WebSocket. It works cleanly behind Cloudflare tunnels and standard reverse proxies without any NAT traversal headaches. The emulation runs server-side via LibRetro cores.
 
-{{< figure src="/emugate.png" alt="Emugate — account and session interface" >}}
+{{< figure src="/emugate.webp" alt="Emugate — account and session interface" >}}
 
 ## What's supported
 

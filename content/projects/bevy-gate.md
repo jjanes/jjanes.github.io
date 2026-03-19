@@ -16,7 +16,7 @@ github_url: ""
 media:
   - enabled: true
     type: "image"
-    src: "/bevy-gate-browser-based-wam-map-builder-spawn3d-map-builder.png"
+    src: "/bevy-gate-browser-based-wam-map-builder-spawn3d-map-builder.webp"
     caption: "Browser-based map builder pass for Gate Bevy. Spawning and arranging 3D content from a web UI is the direction for fast world-authoring."
 
   - enabled: true

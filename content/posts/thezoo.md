@@ -23,7 +23,7 @@ Modern AI — especially consumer-grade AI — feels similar. From the outside, 
 <br>
 <br>
 
-![Pasted image 20260302121453.png](/convolution.png)
+![Pasted image 20260302121453.webp](/convolution.webp)
 
 <br>
 <br>
@@ -70,7 +70,7 @@ It will come from better systems design.
 <br>
 
 
-![the-zoo.png](/the-zoo.png)
+![the-zoo.webp](/the-zoo.webp)
 
 
 <br>
@@ -134,7 +134,7 @@ We’re beyond the gatekeeping of yesterday. The knowledge that once lived behin
 That’s the part that excites me. New concepts. New patterns. New designs. The universe isn’t static — it’s layered, recursive, beautiful. We’re not at the end of understanding; we’re at the edge of it. And if we choose curiosity over mystique, systems over cages, clarity over gatekeeping — then the Zoo becomes something else entirely. Not a collection of isolated exhibits, but a living ecosystem we actually understand.
 
 
-![zoo-quote.png](/zoo-quote.png)
+![zoo-quote.webp](/zoo-quote.webp)
 
 This is just the tip of the iceberg. I could go for hours about other inefficiencies — this piece mainly scratches the surface around image generation pipelines and the way we’re stacking compute without thinking systemically. Next, I want to dig into large language models and what’s happening there — because the same patterns are showing up again. The farm next door isn’t staying a farm for long; it’s turning into a data center. 
 

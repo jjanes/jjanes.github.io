@@ -44,4 +44,4 @@ Dont get me wrong you want to start up a new project. Use an agent get that thin
 
 Use AI to code expect garbage like this everywhere. 
 
-![slop](/slop.png)
+![slop](/slop.webp)
