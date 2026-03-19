@@ -2,95 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>John Janes</title>
-    <link>http://localhost:1313/</link>
+    <link>https://johnjanes.com/</link>
     <description>Recent content on John Janes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://johnjanes.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emugate</title>
-      <link>http://localhost:1313/projects/emugate/</link>
+      <link>https://johnjanes.com/projects/emugate/</link>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/emugate/</guid>
+      <guid>https://johnjanes.com/projects/emugate/</guid>
       <description>Browser-based multiplayer retro gaming platform. Stream classic games in real-time over H.264/WebSocket — no plugins, no installs, up to 4 players.</description>
     </item>
     <item>
       <title>Emugate Alpha — Register Now</title>
-      <link>http://localhost:1313/posts/emugate-alpha/</link>
+      <link>https://johnjanes.com/posts/emugate-alpha/</link>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/emugate-alpha/</guid>
+      <guid>https://johnjanes.com/posts/emugate-alpha/</guid>
       <description>Emugate alpha testing is open. Browser-based multiplayer retro gaming — NES, SNES, GBA, PS1, N64, and more. No installs, no plugins. Register at drezdin.com.</description>
     </item>
     <item>
       <title>Gate Bevy</title>
-      <link>http://localhost:1313/projects/bevy-gate/</link>
+      <link>https://johnjanes.com/projects/bevy-gate/</link>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/bevy-gate/</guid>
+      <guid>https://johnjanes.com/projects/bevy-gate/</guid>
       <description>Multiplayer 3D action game engine and world editor built on Bevy. Third-person gameplay, dedicated server, Lua-scripted UI, and a browser-based map editor.</description>
     </item>
     <item>
       <title>orbis-v1</title>
-      <link>http://localhost:1313/projects/orbis-v1/</link>
+      <link>https://johnjanes.com/projects/orbis-v1/</link>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/orbis-v1/</guid>
+      <guid>https://johnjanes.com/projects/orbis-v1/</guid>
       <description>AI-powered video editor built in Zig. A high-performance inference server backed by ONNX Runtime and AMD ROCm/HIP drives face detection, embedding, and swapping — all composable as JSON playbooks. Python GUI on top for timeline editing and real-time preview.</description>
     </item>
     <item>
       <title>All aboout the slop.</title>
-      <link>http://localhost:1313/posts/theslop/</link>
+      <link>https://johnjanes.com/posts/theslop/</link>
       <pubDate>Mon, 09 Mar 2026 12:27:36 -0600</pubDate>
-      <guid>http://localhost:1313/posts/theslop/</guid>
+      <guid>https://johnjanes.com/posts/theslop/</guid>
       <description>&lt;p&gt;So about 3 months ago I decided, lets try the &amp;ldquo;vibe coding thing.&amp;rdquo; I want to see what all the fuss was about. I loaded up Claude code and codex and put them to the test. Some things I have observed.&lt;/p&gt;&#xA;&lt;p&gt;I am building a streaming platform.. Pretty complex. Custom UDP video protocols, custom stream keys per user for tracking and various other per user control.&lt;/p&gt;&#xA;&lt;h1 id=&#34;go-with-codex&#34;&gt;Go with codex:&lt;/h1&gt;&#xA;&lt;p&gt;3 iterations of the project with the same results. Slop.&#xA;Few vendor packages.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dead Contract Queue: Cascading Multi-Layer Contract Execution</title>
-      <link>http://localhost:1313/posts/dcq/</link>
+      <link>https://johnjanes.com/posts/dcq/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dcq/</guid>
+      <guid>https://johnjanes.com/posts/dcq/</guid>
       <description>&lt;p&gt;I will hopefully be open sourcing this soon.  This little technical write up on a system I designed. I wrote system in golang.&lt;/p&gt;&#xA;&lt;p&gt;I built something I couldn’t find anywhere else.&lt;/p&gt;&#xA;&lt;p&gt;Not a framework. Not a pattern I borrowed and renamed. Not another flavor of “clean architecture.” This came from repeatedly running into the same problem: logic scattered everywhere, validation leaking across boundaries, and state transitions that felt more like guesswork than engineering. I wanted something deterministic. Something that made advancement impossible without proof. Something that enforced order without becoming rigid.&lt;/p&gt;</description>
     </item>
     <item>
       <title>THE ZOO</title>
-      <link>http://localhost:1313/posts/thezoo/</link>
+      <link>https://johnjanes.com/posts/thezoo/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/thezoo/</guid>
+      <guid>https://johnjanes.com/posts/thezoo/</guid>
       <description>&lt;h2 id=&#34;the-hook&#34;&gt;The Hook&lt;/h2&gt;&#xA;&lt;p&gt;When I wrote this, I kept thinking about Upton Sinclair walking into the meatpacking plants for The Jungle. He didn’t go in looking for metaphor — he went in to see how the machinery actually worked. What he found wasn’t just production at scale; it was waste, opacity, and a system optimized for throughput over clarity. The surface looked efficient. The inside told a different story.&lt;/p&gt;&#xA;&lt;p&gt;Modern AI — especially consumer-grade AI — feels similar. From the outside, it’s sleek interfaces, instant outputs, magical demos. Underneath, it’s layers of duplicated compute, isolated inference passes, memory churn, black-box graphs running side by side without coordination. We’ve industrialized pattern generation, but we rarely audit the factory floor. The point isn’t outrage — it’s awareness. If we’re going to build the next layer of infrastructure on top of these systems, we should understand how the assembly line actually runs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Origin Story: The Packard Bell That Started It All</title>
-      <link>http://localhost:1313/posts/origin-story/</link>
+      <link>https://johnjanes.com/posts/origin-story/</link>
       <pubDate>Wed, 26 Nov 2025 12:00:00 -0600</pubDate>
-      <guid>http://localhost:1313/posts/origin-story/</guid>
+      <guid>https://johnjanes.com/posts/origin-story/</guid>
       <description>&lt;p&gt;It all started in a dark alley.&lt;/p&gt;&#xA;&lt;p&gt;It was 1992. I was 11. A shadowy figure leaned in and whispered,&lt;br&gt;&#xA;“Hey kid… this fell off the back of a truck. You interested in a &lt;em&gt;state-of-the-art Packard Bell&lt;/em&gt;?”&lt;/p&gt;&#xA;&lt;p&gt;No dummies. You didn’t really think that’s how this started, did you?&lt;/p&gt;&#xA;&lt;p&gt;Gotcha.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;christmas-1993--berwyn-illinois&#34;&gt;Christmas, 1993 — Berwyn, Illinois&lt;/h2&gt;&#xA;&lt;p&gt;The real beginning was Christmas morning, 1993 — at my grandparents’ apartment in Berwyn, Illinois.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
+      <link>https://johnjanes.com/posts/hello-world/</link>
       <pubDate>Thu, 20 Nov 2025 12:27:36 -0600</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <guid>https://johnjanes.com/posts/hello-world/</guid>
       <description>&lt;p&gt;Hello, and welcome to my site.&lt;/p&gt;&#xA;&lt;p&gt;My name is &lt;strong&gt;John Janes&lt;/strong&gt;, and I’ve been programming in one form or another for most of my life. This blog is a place to share my thoughts on technology and to document what I’ve learned over a &lt;strong&gt;25+ year professional career in software development&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-systems&#34;&gt;Operating Systems&lt;/h2&gt;&#xA;&lt;p&gt;My daily driver is &lt;strong&gt;NixOS&lt;/strong&gt;, though I regularly work on macOS and Windows as well.&lt;br&gt;&#xA;On the server side, &lt;strong&gt;Ubuntu&lt;/strong&gt; is usually my platform of choice.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/_contact/</link>
+      <link>https://johnjanes.com/_contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/_contact/</guid>
+      <guid>https://johnjanes.com/_contact/</guid>
       <description>&lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;&#xA;&lt;p&gt;Feel free to call or drop a text — I’m always happy to talk tech, projects, ideas, or just say hey.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;direct&#34;&gt;Direct&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Phone / Text:&lt;/strong&gt;&lt;br&gt;&#xA;📱 708-724-4996&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Email:&lt;/strong&gt;&lt;br&gt;&#xA;✉️ &lt;a href=&#34;mailto:john@johnjanes.com&#34;&gt;john@johnjanes.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;social--streaming&#34;&gt;Social &amp;amp; Streaming&lt;/h2&gt;&#xA;&lt;p&gt;If you’re more comfortable online, you can find me here:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;💬 &lt;strong&gt;Discord:&lt;/strong&gt; &lt;code&gt;drez.zip&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;📺 &lt;strong&gt;Kick:&lt;/strong&gt; &lt;a href=&#34;https://kick.com/drezdin&#34;&gt;kick.com/drezdin&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;🎮 &lt;strong&gt;Twitch:&lt;/strong&gt; &lt;a href=&#34;https://twitch.tv/jjfishii&#34;&gt;twitch.tv/jjfishii&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;🐦 &lt;strong&gt;X / Twitter:&lt;/strong&gt; &lt;a href=&#34;https://x.com/jjfishii&#34;&gt;x.com/jjfishii&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;📸 &lt;strong&gt;Instagram:&lt;/strong&gt; &lt;code&gt;jjfishii&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;📡 &lt;strong&gt;Telegram:&lt;/strong&gt; &lt;code&gt;@jjfishii&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-to-reach-out-about&#34;&gt;What to Reach Out About&lt;/h2&gt;&#xA;&lt;p&gt;You can reach out for:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://johnjanes.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://johnjanes.com/contact/</guid>
       <description>&lt;p&gt;Feel free to call or drop a text — I’m always happy to talk tech, projects, ideas, or just say hey.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;direct&#34;&gt;Direct&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Phone / Text:&lt;/strong&gt;&lt;br&gt;&#xA;📱 708-724-4996&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Email:&lt;/strong&gt;&lt;br&gt;&#xA;✉️ &lt;a href=&#34;mailto:john@johnjanes.com&#34;&gt;john@johnjanes.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;social--streaming&#34;&gt;Social &amp;amp; Streaming&lt;/h2&gt;&#xA;&lt;p&gt;If you’re more comfortable online, you can find me here:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;💬 &lt;strong&gt;Discord:&lt;/strong&gt; &lt;code&gt;drez.zip&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;📺 &lt;strong&gt;Kick:&lt;/strong&gt; &lt;a href=&#34;https://kick.com/drezdin&#34;&gt;kick.com/drezdin&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;🎮 &lt;strong&gt;Twitch:&lt;/strong&gt; &lt;a href=&#34;https://twitch.tv/jjfishii&#34;&gt;twitch.tv/jjfishii&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;🐦 &lt;strong&gt;X / Twitter:&lt;/strong&gt; &lt;a href=&#34;https://x.com/jjfishii&#34;&gt;x.com/jjfishii&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;📸 &lt;strong&gt;Instagram:&lt;/strong&gt; &lt;code&gt;jjfishii&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;📡 &lt;strong&gt;Telegram:&lt;/strong&gt; &lt;code&gt;@jjfishii&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;want-to-reach-out-about&#34;&gt;Want to Reach Out About&lt;/h2&gt;&#xA;&lt;p&gt;You can reach out for:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Software / engineering conversations&lt;/li&gt;&#xA;&lt;li&gt;Collaboration ideas&lt;/li&gt;&#xA;&lt;li&gt;Game dev &amp;amp; streaming&lt;/li&gt;&#xA;&lt;li&gt;Consulting or advisory work&lt;/li&gt;&#xA;&lt;li&gt;Or just to connect&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you’re sending something detailed, email is best.&lt;br&gt;&#xA;If it’s quick — text or Discord works great.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Resume</title>
-      <link>http://localhost:1313/resume/</link>
+      <link>https://johnjanes.com/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resume/</guid>
-      <description>&lt;h1 id=&#34;john-janes&#34;&gt;John Janes&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Principal Software Engineer&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Homer Glen, IL · (708) 724-4996 · &lt;a href=&#34;mailto:john@johnjanes.com&#34;&gt;john@johnjanes.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/files/John_Janes_Resume.pdf&#34;&gt;Download PDF Resume&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;h2 id=&#34;principal-software-engineer-with-25-years-delivering-high-impact-solutions-across-fortune-500-companies-and-fast-growing-startups-proven-expertise-in-scaling-engineering-teams-modernizing-legacy-systems-and-building-enterprise-marketing-and-saas-platforms-track-record-of-supporting-multiple-funding-rounds-and-leading-critical-compliance-initiatives-including-gdpr-and-pci&#34;&gt;Principal Software Engineer with 25+ years delivering high-impact solutions across Fortune 500 companies and fast-growing startups. Proven expertise in scaling engineering teams, modernizing legacy systems, and building enterprise marketing and SaaS platforms. Track record of supporting multiple funding rounds and leading critical compliance initiatives including GDPR and PCI.&lt;/h2&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Languages &amp;amp; Frameworks&lt;/strong&gt;&lt;br&gt;&#xA;PHP (Symfony, Laravel), Ruby (Rails), JavaScript (Node.js, Express, React, Angular), Go, HTML/CSS&lt;/p&gt;</description>
+      <guid>https://johnjanes.com/resume/</guid>
+      <description>&lt;h1 id=&#34;john-janes&#34;&gt;John Janes&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Principal Software Engineer&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Homer Glen, IL · (708) 724-4996 · &lt;a href=&#34;mailto:john@johnjanes.com&#34;&gt;john@johnjanes.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://johnjanes.com/files/John_Janes_Resume.pdf&#34;&gt;Download PDF Resume&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;h2 id=&#34;principal-software-engineer-with-25-years-delivering-high-impact-solutions-across-fortune-500-companies-and-fast-growing-startups-proven-expertise-in-scaling-engineering-teams-modernizing-legacy-systems-and-building-enterprise-marketing-and-saas-platforms-track-record-of-supporting-multiple-funding-rounds-and-leading-critical-compliance-initiatives-including-gdpr-and-pci&#34;&gt;Principal Software Engineer with 25+ years delivering high-impact solutions across Fortune 500 companies and fast-growing startups. Proven expertise in scaling engineering teams, modernizing legacy systems, and building enterprise marketing and SaaS platforms. Track record of supporting multiple funding rounds and leading critical compliance initiatives including GDPR and PCI.&lt;/h2&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Languages &amp;amp; Frameworks&lt;/strong&gt;&lt;br&gt;&#xA;PHP (Symfony, Laravel), Ruby (Rails), JavaScript (Node.js, Express, React, Angular), Go, HTML/CSS&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
