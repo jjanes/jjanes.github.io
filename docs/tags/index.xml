@@ -6,8 +6,36 @@
     <description>Recent content in Tags on John Janes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 12:00:00 -0600</lastBuildDate>
     <atom:link href="https://janes.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Career</title>
+      <link>https://janes.co/tags/career/</link>
+      <pubDate>Mon, 27 Apr 2026 12:00:00 -0600</pubDate>
+      <guid>https://janes.co/tags/career/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computers</title>
+      <link>https://janes.co/tags/computers/</link>
+      <pubDate>Mon, 27 Apr 2026 12:00:00 -0600</pubDate>
+      <guid>https://janes.co/tags/computers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Origin Story</title>
+      <link>https://janes.co/tags/origin-story/</link>
+      <pubDate>Mon, 27 Apr 2026 12:00:00 -0600</pubDate>
+      <guid>https://janes.co/tags/origin-story/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal</title>
+      <link>https://janes.co/tags/personal/</link>
+      <pubDate>Mon, 27 Apr 2026 12:00:00 -0600</pubDate>
+      <guid>https://janes.co/tags/personal/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Announcement</title>
       <link>https://janes.co/tags/announcement/</link>
@@ -125,34 +153,6 @@
       <link>https://janes.co/tags/tensor-pipelines/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://janes.co/tags/tensor-pipelines/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Career</title>
-      <link>https://janes.co/tags/career/</link>
-      <pubDate>Wed, 26 Nov 2025 12:00:00 -0600</pubDate>
-      <guid>https://janes.co/tags/career/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Computers</title>
-      <link>https://janes.co/tags/computers/</link>
-      <pubDate>Wed, 26 Nov 2025 12:00:00 -0600</pubDate>
-      <guid>https://janes.co/tags/computers/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Origin Story</title>
-      <link>https://janes.co/tags/origin-story/</link>
-      <pubDate>Wed, 26 Nov 2025 12:00:00 -0600</pubDate>
-      <guid>https://janes.co/tags/origin-story/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Personal</title>
-      <link>https://janes.co/tags/personal/</link>
-      <pubDate>Wed, 26 Nov 2025 12:00:00 -0600</pubDate>
-      <guid>https://janes.co/tags/personal/</guid>
       <description></description>
     </item>
   </channel>
