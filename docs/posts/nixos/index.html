@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I use NixOS... BTW | John Janes</title>
+  <meta name="description" content="Senior Software Engineer — systems, games, retro tech, and low-level everything.">
+  <meta name="color-scheme" content="light">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="alternate" type="application/rss+xml" title="John Janes" href="/index.xml">
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PC1TW04WSF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PC1TW04WSF');
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">John Janes</a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        
+        <li>
+          <a href="/posts/"
+             >
+            Blog
+          </a>
+        </li>
+        
+        <li>
+          <a href="/projects/"
+             >
+            Projects
+          </a>
+        </li>
+        
+        <li>
+          <a href="/resume/"
+             >
+            Résumé
+          </a>
+        </li>
+        
+        <li>
+          <a href="/contact/"
+             >
+            Contact
+          </a>
+        </li>
+        
+        <li>
+          <a href="https://github.com/jjanes" target="_blank" rel="noopener"
+             class="nav-icon-link" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61
+                       c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77
+                       5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0
+                       C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77
+                       a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7
+                       A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  
+  <div id="live-banner" class="live-banner" style="display:none"></div>
+
+  <main class="site-main">
+    
+<div class="prose-layout">
+
+  <header class="prose-header">
+    <h1 class="prose-title">I use NixOS... BTW</h1>
+    <div class="prose-meta">
+      <span>May 16, 2026</span>
+      
+      <span>·</span>
+      <span class="tag">origin story</span><span class="tag">personal</span><span class="tag">computers</span><span class="tag">NixOS</span><span class="tag">Linux</span><span class="tag">LoveOfTheGame</span>
+      
+      
+    </div>
+  </header>
+
+  <div class="prose-body">
+    <p><img src="/nixos.jpg" alt="l33t NixOS"></p>
+<p>&lsquo;95 was an amazing summer. Before starting my 8th grade year of junior high, I was given what felt like an early graduation gift: the internet.</p>
+<p>Man, I was excited.</p>
+<p>I had already been exposed to computers at friends’ houses for years — things like Slackware and IRC (Internet Relay Chat). Back then, the internet still felt underground. You had to <em>want</em> to learn it.</p>
+<p>I’ve been using Linux in one form or another since around 1995. I didn’t really start daily driving it on the desktop until much later though. Windows still owned gaming, hardware support was rough, and there were always those stupid “Windows-only” devices — printers, mice, scanners, random drivers, you name it.</p>
+<p>And honestly? Linux desktop setup back then was not for the faint of heart.</p>
+<p>If you remember configuring <code>xorg.conf</code>, you already know the pain. Getting your monitor, resolution, refresh rate, and desktop environment working sometimes felt harder than installing the operating system itself.</p>
+<p>Then came Ubuntu in 2004.</p>
+<p>By that point I had already tried all kinds of Linux distros, but nothing really stuck as a desktop operating system. Was 2004 finally the “Year of the Linux Desktop”?</p>
+<p>For me, not quite.</p>
+<p>See, 2004 was also the year World of Warcraft launched, and that game consumed years of my life.</p>
+<p>Sure, Linux had Wine. You could pay for something like CrossOver or spend hours tinkering your way through compatibility issues. But there was nothing close to the seamless experience Linux gamers have today with Proton.</p>
+<p>Linux became my “everyday use” operating system long before it became my true daily driver.</p>
+<p>By the late 2000s, I was making serious attempts to move over full-time. Linux was always there in the background, but gaming kept pulling me back into Windows. Professionally, I had also moved deeper into the Apple ecosystem for work.</p>
+<p>Then a few years later came Pop!_OS.</p>
+<p>When Pop!_OS released in 2017, something clicked in my head:<br>
+“I can actually do this now.”</p>
+<p>Lutris had matured, Linux gaming compatibility was improving fast, and shortly afterward Valve released Proton. That changed everything.</p>
+<p>For the first time in my life, Linux didn’t feel like a compromise for PC gaming anymore.</p>
+<p>Ubuntu and Debian-based distributions were great, but eventually I wanted something with more aggressive packaging and newer software. So I started distro hopping again — Arch, OpenSUSE, Mint — before eventually settling on Fedora Linux for a few years.</p>
+<p>Fedora was fantastic.</p>
+<p>Until I bricked it.</p>
+<p>Multiple times.</p>
+<p>Around then I kept hearing people talk about NixOS. I remember thinking:<br>
+“There’s no way people are actually daily driving this thing.”</p>
+<p>It looked insanely complicated.</p>
+<p>At that point I had already been using Fedora for years, but after breaking my system one final time I figured:<br>
+Why not give NixOS a shot?</p>
+<p>What I found was completely different from every Linux distribution I had used before.</p>
+<p>NixOS treats the operating system almost like source code. Instead of manually tweaking a machine over time and hoping nothing breaks, you define your system configuration declaratively and rebuild it from configuration files.</p>
+<p>Need to roll back after a bad update?<br>
+Reboot.</p>
+<p>Need identical development environments across multiple machines?<br>
+Done.</p>
+<p>Need multiple versions of the same package installed simultaneously?<br>
+No problem.</p>
+<p>The deeper I got into it, the more I realized NixOS wasn’t just another Linux distro. It was a different philosophy entirely.</p>
+<p>And after nearly 30 years of using Linux, it’s probably the closest thing I’ve found to a desktop operating system that actually feels engineered for developers first.</p>
+<p>This will be the first in a series of blogs about NixOS and the broader Nix ecosystem. I want to cover how NixOS — both as an operating system and as a package manager — has completely changed the way I approach development workflows, not just on Linux, but on macOS and Windows as well.</p>
+<p>There are a lot of great YouTube videos introducing NixOS, but I want to go deeper into real-world systems and daily use: reproducible development environments, gaming setups, infrastructure, shells, CI/CD pipelines, cross-platform tooling, and how Nix changes the way you think about software itself.</p>
+<p>I genuinely believe Nix belongs in the modern software development conversation in a much bigger way than it currently does. Once you start building fully reproducible environments and treating your workstation like code, it becomes very hard to go back.</p>
+<p>I’m looking forward to digging deeper into these topics in future posts.</p>
+<p>&ndash; John</p>
+
+  </div>
+
+  <hr class="divider">
+  <p style="font-size:0.85rem;color:var(--text-3);">
+    <a href="/posts/">← All posts</a>
+  </p>
+
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="https://github.com/jjanes"           target="_blank" rel="noopener">GitHub</a>
+        <a href="https://kick.com/drezdin"            target="_blank" rel="noopener">Kick</a>
+        <a href="https://youtube.com/@drezOG"         target="_blank" rel="noopener">YouTube</a>
+        <a href="https://x.com/jjfish"                target="_blank" rel="noopener">X</a>
+        <a href="https://twitch.tv/jjfishii"          target="_blank" rel="noopener">Twitch</a>
+        <a href="https://linkedin.com/in/johnrjanes"  target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://drezdin.com"                 target="_blank" rel="noopener">Drezdin Labs</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 John Janes. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    window.SITE_CONFIG = {
+      kickUsername:     "drezdin",
+      youtubeChannelId: "UCx7tk6qQRq5OT1FYIGiS6cg",
+      youtubeApiKey:    ""
+    };
+  </script>
+  <script src="/js/live.js" defer></script>
+
+</body>
+</html>
