@@ -2,178 +2,178 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on John Janes</title>
-    <link>https://janes.co/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on John Janes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 May 2026 12:00:00 -0600</lastBuildDate>
-    <atom:link href="https://janes.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 May 2026 00:00:00 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computers</title>
-      <link>https://janes.co/tags/computers/</link>
-      <pubDate>Sat, 16 May 2026 12:00:00 -0600</pubDate>
-      <guid>https://janes.co/tags/computers/</guid>
+      <link>http://localhost:1313/tags/computers/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 -0600</pubDate>
+      <guid>http://localhost:1313/tags/computers/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://janes.co/tags/linux/</link>
-      <pubDate>Sat, 16 May 2026 12:00:00 -0600</pubDate>
-      <guid>https://janes.co/tags/linux/</guid>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 -0600</pubDate>
+      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>LoveOfTheGame</title>
-      <link>https://janes.co/tags/loveofthegame/</link>
-      <pubDate>Sat, 16 May 2026 12:00:00 -0600</pubDate>
-      <guid>https://janes.co/tags/loveofthegame/</guid>
+      <link>http://localhost:1313/tags/loveofthegame/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 -0600</pubDate>
+      <guid>http://localhost:1313/tags/loveofthegame/</guid>
       <description></description>
     </item>
     <item>
       <title>NixOS</title>
-      <link>https://janes.co/tags/nixos/</link>
-      <pubDate>Sat, 16 May 2026 12:00:00 -0600</pubDate>
-      <guid>https://janes.co/tags/nixos/</guid>
+      <link>http://localhost:1313/tags/nixos/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 -0600</pubDate>
+      <guid>http://localhost:1313/tags/nixos/</guid>
       <description></description>
     </item>
     <item>
       <title>Origin Story</title>
-      <link>https://janes.co/tags/origin-story/</link>
-      <pubDate>Sat, 16 May 2026 12:00:00 -0600</pubDate>
-      <guid>https://janes.co/tags/origin-story/</guid>
+      <link>http://localhost:1313/tags/origin-story/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 -0600</pubDate>
+      <guid>http://localhost:1313/tags/origin-story/</guid>
       <description></description>
     </item>
     <item>
       <title>Personal</title>
-      <link>https://janes.co/tags/personal/</link>
-      <pubDate>Sat, 16 May 2026 12:00:00 -0600</pubDate>
-      <guid>https://janes.co/tags/personal/</guid>
+      <link>http://localhost:1313/tags/personal/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 -0600</pubDate>
+      <guid>http://localhost:1313/tags/personal/</guid>
       <description></description>
     </item>
     <item>
       <title>Career</title>
-      <link>https://janes.co/tags/career/</link>
+      <link>http://localhost:1313/tags/career/</link>
       <pubDate>Mon, 27 Apr 2026 12:00:00 -0600</pubDate>
-      <guid>https://janes.co/tags/career/</guid>
+      <guid>http://localhost:1313/tags/career/</guid>
       <description></description>
     </item>
     <item>
       <title>Announcement</title>
-      <link>https://janes.co/tags/announcement/</link>
+      <link>http://localhost:1313/tags/announcement/</link>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/announcement/</guid>
+      <guid>http://localhost:1313/tags/announcement/</guid>
       <description></description>
     </item>
     <item>
       <title>Drezdin-Labs</title>
-      <link>https://janes.co/tags/drezdin-labs/</link>
+      <link>http://localhost:1313/tags/drezdin-labs/</link>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/drezdin-labs/</guid>
+      <guid>http://localhost:1313/tags/drezdin-labs/</guid>
       <description></description>
     </item>
     <item>
       <title>Emugate</title>
-      <link>https://janes.co/tags/emugate/</link>
+      <link>http://localhost:1313/tags/emugate/</link>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/emugate/</guid>
+      <guid>http://localhost:1313/tags/emugate/</guid>
       <description></description>
     </item>
     <item>
       <title>Retro-Gaming</title>
-      <link>https://janes.co/tags/retro-gaming/</link>
+      <link>http://localhost:1313/tags/retro-gaming/</link>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/retro-gaming/</guid>
+      <guid>http://localhost:1313/tags/retro-gaming/</guid>
       <description></description>
     </item>
     <item>
       <title>Ai</title>
-      <link>https://janes.co/tags/ai/</link>
+      <link>http://localhost:1313/tags/ai/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/ai/</guid>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Architecture</title>
-      <link>https://janes.co/tags/architecture/</link>
+      <link>http://localhost:1313/tags/architecture/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/architecture/</guid>
+      <guid>http://localhost:1313/tags/architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Contracts</title>
-      <link>https://janes.co/tags/contracts/</link>
+      <link>http://localhost:1313/tags/contracts/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/contracts/</guid>
+      <guid>http://localhost:1313/tags/contracts/</guid>
       <description></description>
     </item>
     <item>
       <title>Execution-Engine</title>
-      <link>https://janes.co/tags/execution-engine/</link>
+      <link>http://localhost:1313/tags/execution-engine/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/execution-engine/</guid>
+      <guid>http://localhost:1313/tags/execution-engine/</guid>
       <description></description>
     </item>
     <item>
       <title>Graph-Compute</title>
-      <link>https://janes.co/tags/graph-compute/</link>
+      <link>http://localhost:1313/tags/graph-compute/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/graph-compute/</guid>
+      <guid>http://localhost:1313/tags/graph-compute/</guid>
       <description></description>
     </item>
     <item>
       <title>Infrastructure</title>
-      <link>https://janes.co/tags/infrastructure/</link>
+      <link>http://localhost:1313/tags/infrastructure/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/infrastructure/</guid>
+      <guid>http://localhost:1313/tags/infrastructure/</guid>
       <description></description>
     </item>
     <item>
       <title>Llm</title>
-      <link>https://janes.co/tags/llm/</link>
+      <link>http://localhost:1313/tags/llm/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/llm/</guid>
+      <guid>http://localhost:1313/tags/llm/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine-Learning</title>
-      <link>https://janes.co/tags/machine-learning/</link>
+      <link>http://localhost:1313/tags/machine-learning/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/machine-learning/</guid>
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Model-Architecture</title>
-      <link>https://janes.co/tags/model-architecture/</link>
+      <link>http://localhost:1313/tags/model-architecture/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/model-architecture/</guid>
+      <guid>http://localhost:1313/tags/model-architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Model-Zoo</title>
-      <link>https://janes.co/tags/model-zoo/</link>
+      <link>http://localhost:1313/tags/model-zoo/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/model-zoo/</guid>
+      <guid>http://localhost:1313/tags/model-zoo/</guid>
       <description></description>
     </item>
     <item>
       <title>Performance</title>
-      <link>https://janes.co/tags/performance/</link>
+      <link>http://localhost:1313/tags/performance/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/performance/</guid>
+      <guid>http://localhost:1313/tags/performance/</guid>
       <description></description>
     </item>
     <item>
       <title>Systems-Engineering</title>
-      <link>https://janes.co/tags/systems-engineering/</link>
+      <link>http://localhost:1313/tags/systems-engineering/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/systems-engineering/</guid>
+      <guid>http://localhost:1313/tags/systems-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Tensor-Pipelines</title>
-      <link>https://janes.co/tags/tensor-pipelines/</link>
+      <link>http://localhost:1313/tags/tensor-pipelines/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/tags/tensor-pipelines/</guid>
+      <guid>http://localhost:1313/tags/tensor-pipelines/</guid>
       <description></description>
     </item>
   </channel>

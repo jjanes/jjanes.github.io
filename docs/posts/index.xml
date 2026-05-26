@@ -2,66 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on John Janes</title>
-    <link>https://janes.co/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on John Janes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 May 2026 12:00:00 -0600</lastBuildDate>
-    <atom:link href="https://janes.co/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 May 2026 00:00:00 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Let’s Talk About Nix. My Daily Driver</title>
+      <link>http://localhost:1313/posts/daily-driver/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 -0600</pubDate>
+      <guid>http://localhost:1313/posts/daily-driver/</guid>
+      <description>&lt;p&gt;![[Pasted image 20260523073915.png]]&lt;/p&gt;&#xA;&lt;p&gt;This is part of a series I am writing on NixOS. If you want a little background on my history with Linux and how I ended up daily driving NixOS, read this first: &lt;a href=&#34;http://localhost:1313/posts/nixos&#34;&gt;I use NixOS&amp;hellip; BTW&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-nixos&#34;&gt;What is NixOS?&lt;/h1&gt;&#xA;&lt;p&gt;Nix is really three things at once:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;A package manager and build system&lt;/li&gt;&#xA;&lt;li&gt;A programming language&lt;/li&gt;&#xA;&lt;li&gt;A Linux-based operating system&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;If you have never heard of Nix — or even if you have — you are probably scratching your head right now wondering:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>I use NixOS... BTW</title>
-      <link>https://janes.co/posts/nixos/</link>
+      <link>http://localhost:1313/posts/nixos/</link>
       <pubDate>Sat, 16 May 2026 12:00:00 -0600</pubDate>
-      <guid>https://janes.co/posts/nixos/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://janes.co/nixos.jpg&#34; alt=&#34;l33t NixOS&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;lsquo;95 was an amazing summer. Before starting my 8th grade year of junior high, I was given what felt like an early graduation gift: the internet.&lt;/p&gt;&#xA;&lt;p&gt;Man, I was excited.&lt;/p&gt;&#xA;&lt;p&gt;I had already been exposed to computers at friends’ houses for years — things like Slackware and IRC (Internet Relay Chat). Back then, the internet still felt underground. You had to &lt;em&gt;want&lt;/em&gt; to learn it.&lt;/p&gt;&#xA;&lt;p&gt;I’ve been using Linux in one form or another since around 1995. I didn’t really start daily driving it on the desktop until much later though. Windows still owned gaming, hardware support was rough, and there were always those stupid “Windows-only” devices — printers, mice, scanners, random drivers, you name it.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/nixos/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/nixos.jpg&#34; alt=&#34;l33t NixOS&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;lsquo;95 was an amazing summer. Before starting my 8th grade year of junior high, I was given what felt like an early graduation gift: the internet.&lt;/p&gt;&#xA;&lt;p&gt;Man, I was excited.&lt;/p&gt;&#xA;&lt;p&gt;I had already been exposed to computers at friends’ houses for years — things like Slackware and IRC (Internet Relay Chat). Back then, the internet still felt underground. You had to &lt;em&gt;want&lt;/em&gt; to learn it.&lt;/p&gt;&#xA;&lt;p&gt;I’ve been using Linux in one form or another since around 1995. I didn’t really start daily driving it on the desktop until much later though. Windows still owned gaming, hardware support was rough, and there were always those stupid “Windows-only” devices — printers, mice, scanners, random drivers, you name it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The elephant in the room.. Personal Home Page</title>
-      <link>https://janes.co/posts/php/</link>
+      <link>http://localhost:1313/posts/php/</link>
       <pubDate>Mon, 27 Apr 2026 12:00:00 -0600</pubDate>
-      <guid>https://janes.co/posts/php/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://janes.co/php.jpg&#34; alt=&#34;Personal Home Page&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When I first stumbled into the world of dynamic websites in the late 1990s, the landscape was a wild frontier. Perl scripts and server-side binaries ruled the World Wide Web. It was clunky, it was manual, and it was glorious.&lt;/p&gt;&#xA;&lt;p&gt;At the time, a buddy of mine was hosting my site. I remember asking him a simple question: &amp;ldquo;How can I add a counter to my page?&amp;rdquo;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/php/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/php.jpg&#34; alt=&#34;Personal Home Page&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When I first stumbled into the world of dynamic websites in the late 1990s, the landscape was a wild frontier. Perl scripts and server-side binaries ruled the World Wide Web. It was clunky, it was manual, and it was glorious.&lt;/p&gt;&#xA;&lt;p&gt;At the time, a buddy of mine was hosting my site. I remember asking him a simple question: &amp;ldquo;How can I add a counter to my page?&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Emugate Alpha — Register Now</title>
-      <link>https://janes.co/posts/emugate-alpha/</link>
+      <link>http://localhost:1313/posts/emugate-alpha/</link>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/posts/emugate-alpha/</guid>
+      <guid>http://localhost:1313/posts/emugate-alpha/</guid>
       <description>Emugate alpha testing is open. Browser-based multiplayer retro gaming — NES, SNES, GBA, PS1, N64, and more. No installs, no plugins. Register at drezdin.com.</description>
     </item>
     <item>
       <title>All aboout the slop.</title>
-      <link>https://janes.co/posts/theslop/</link>
+      <link>http://localhost:1313/posts/theslop/</link>
       <pubDate>Mon, 09 Mar 2026 12:27:36 -0600</pubDate>
-      <guid>https://janes.co/posts/theslop/</guid>
+      <guid>http://localhost:1313/posts/theslop/</guid>
       <description>&lt;p&gt;So about 3 months ago I decided, lets try the &amp;ldquo;vibe coding thing.&amp;rdquo; I want to see what all the fuss was about. I loaded up Claude code and codex and put them to the test. Some things I have observed.&lt;/p&gt;&#xA;&lt;p&gt;I am building a streaming platform.. Pretty complex. Custom UDP video protocols, custom stream keys per user for tracking and various other per user control.&lt;/p&gt;&#xA;&lt;h1 id=&#34;go-with-codex&#34;&gt;Go with codex:&lt;/h1&gt;&#xA;&lt;p&gt;3 iterations of the project with the same results. Slop.&#xA;Few vendor packages.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dead Contract Queue: Cascading Multi-Layer Contract Execution</title>
-      <link>https://janes.co/posts/dcq/</link>
+      <link>http://localhost:1313/posts/dcq/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/posts/dcq/</guid>
+      <guid>http://localhost:1313/posts/dcq/</guid>
       <description>&lt;p&gt;I will hopefully be open sourcing this soon.  This little technical write up on a system I designed. I wrote system in golang.&lt;/p&gt;&#xA;&lt;p&gt;I built something I couldn’t find anywhere else.&lt;/p&gt;&#xA;&lt;p&gt;Not a framework. Not a pattern I borrowed and renamed. Not another flavor of “clean architecture.” This came from repeatedly running into the same problem: logic scattered everywhere, validation leaking across boundaries, and state transitions that felt more like guesswork than engineering. I wanted something deterministic. Something that made advancement impossible without proof. Something that enforced order without becoming rigid.&lt;/p&gt;</description>
     </item>
     <item>
       <title>THE ZOO</title>
-      <link>https://janes.co/posts/thezoo/</link>
+      <link>http://localhost:1313/posts/thezoo/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/posts/thezoo/</guid>
+      <guid>http://localhost:1313/posts/thezoo/</guid>
       <description>&lt;h2 id=&#34;the-hook&#34;&gt;The Hook&lt;/h2&gt;&#xA;&lt;p&gt;When I wrote this, I kept thinking about Upton Sinclair walking into the meatpacking plants for The Jungle. He didn’t go in looking for metaphor — he went in to see how the machinery actually worked. What he found wasn’t just production at scale; it was waste, opacity, and a system optimized for throughput over clarity. The surface looked efficient. The inside told a different story.&lt;/p&gt;&#xA;&lt;p&gt;Modern AI — especially consumer-grade AI — feels similar. From the outside, it’s sleek interfaces, instant outputs, magical demos. Underneath, it’s layers of duplicated compute, isolated inference passes, memory churn, black-box graphs running side by side without coordination. We’ve industrialized pattern generation, but we rarely audit the factory floor. The point isn’t outrage — it’s awareness. If we’re going to build the next layer of infrastructure on top of these systems, we should understand how the assembly line actually runs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Origin Story: The Packard Bell That Started It All</title>
-      <link>https://janes.co/posts/origin-story/</link>
+      <link>http://localhost:1313/posts/origin-story/</link>
       <pubDate>Wed, 26 Nov 2025 12:00:00 -0600</pubDate>
-      <guid>https://janes.co/posts/origin-story/</guid>
+      <guid>http://localhost:1313/posts/origin-story/</guid>
       <description>&lt;p&gt;It all started in a dark alley.&lt;/p&gt;&#xA;&lt;p&gt;It was 1992. I was 11. A shadowy figure leaned in and whispered,&lt;br&gt;&#xA;“Hey kid… this fell off the back of a truck. You interested in a &lt;em&gt;state-of-the-art Packard Bell&lt;/em&gt;?”&lt;/p&gt;&#xA;&lt;p&gt;No dummies. You didn’t really think that’s how this started, did you?&lt;/p&gt;&#xA;&lt;p&gt;Gotcha.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;christmas-1993--berwyn-illinois&#34;&gt;Christmas, 1993 — Berwyn, Illinois&lt;/h2&gt;&#xA;&lt;p&gt;The real beginning was Christmas morning, 1993 — at my grandparents’ apartment in Berwyn, Illinois.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
-      <link>https://janes.co/posts/hello-world/</link>
+      <link>http://localhost:1313/posts/hello-world/</link>
       <pubDate>Thu, 20 Nov 2025 12:27:36 -0600</pubDate>
-      <guid>https://janes.co/posts/hello-world/</guid>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
       <description>&lt;p&gt;Hello, and welcome to my site.&lt;/p&gt;&#xA;&lt;p&gt;My name is &lt;strong&gt;John Janes&lt;/strong&gt;, and I’ve been programming in one form or another for most of my life. This blog is a place to share my thoughts on technology and to document what I’ve learned over a &lt;strong&gt;25+ year professional career in software development&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-systems&#34;&gt;Operating Systems&lt;/h2&gt;&#xA;&lt;p&gt;My daily driver is &lt;strong&gt;NixOS&lt;/strong&gt;, though I regularly work on macOS and Windows as well.&lt;br&gt;&#xA;On the server side, &lt;strong&gt;Ubuntu&lt;/strong&gt; is usually my platform of choice.&lt;/p&gt;</description>
     </item>
   </channel>
