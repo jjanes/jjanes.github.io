@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Model-Architecture on John Janes</title>
-    <link>http://localhost:1313/tags/model-architecture/</link>
+    <link>https://janes.co/tags/model-architecture/</link>
     <description>Recent content in Model-Architecture on John Janes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/model-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://janes.co/tags/model-architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>THE ZOO</title>
-      <link>http://localhost:1313/posts/thezoo/</link>
+      <link>https://janes.co/posts/thezoo/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/thezoo/</guid>
+      <guid>https://janes.co/posts/thezoo/</guid>
       <description>&lt;h2 id=&#34;the-hook&#34;&gt;The Hook&lt;/h2&gt;&#xA;&lt;p&gt;When I wrote this, I kept thinking about Upton Sinclair walking into the meatpacking plants for The Jungle. He didn’t go in looking for metaphor — he went in to see how the machinery actually worked. What he found wasn’t just production at scale; it was waste, opacity, and a system optimized for throughput over clarity. The surface looked efficient. The inside told a different story.&lt;/p&gt;&#xA;&lt;p&gt;Modern AI — especially consumer-grade AI — feels similar. From the outside, it’s sleek interfaces, instant outputs, magical demos. Underneath, it’s layers of duplicated compute, isolated inference passes, memory churn, black-box graphs running side by side without coordination. We’ve industrialized pattern generation, but we rarely audit the factory floor. The point isn’t outrage — it’s awareness. If we’re going to build the next layer of infrastructure on top of these systems, we should understand how the assembly line actually runs.&lt;/p&gt;</description>
     </item>
   </channel>

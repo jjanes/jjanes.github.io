@@ -3,7 +3,7 @@
    .prose-body pre (specificity 0,1,1) with (0,2,0) */
 
 .prose-body .chroma {
-  color: #a9b1d6;
+  color: #cdd6f4;
   background-color: #1a1b2e;
   -webkit-text-size-adjust: none;
 }
@@ -77,8 +77,11 @@
 .chroma .o  { color: #89ddff }
 .chroma .ow { color: #89ddff; font-weight: bold }
 
+/* ── Names (plain identifiers — explicitly bright) ───── */
+.chroma .n  { color: #cdd6f4 }
+
 /* ── Punctuation ─────────────────────────────────────── */
-.chroma .p  { color: #a9b1d6 }
+.chroma .p  { color: #cdd6f4 }
 
 /* ── Comments ────────────────────────────────────────── */
 .chroma .c   { color: #565f89; font-style: italic }
