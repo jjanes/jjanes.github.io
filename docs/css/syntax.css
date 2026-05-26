@@ -1,0 +1,106 @@
+/* Tokyo Night Dark — Chroma CSS classes (noClasses=false)
+   All rules scoped to .prose-body .chroma so they beat
+   .prose-body pre (specificity 0,1,1) with (0,2,0) */
+
+.prose-body .chroma {
+  color: #a9b1d6;
+  background-color: #1a1b2e;
+  -webkit-text-size-adjust: none;
+}
+
+/* ── Line infrastructure ─────────────────────────────── */
+.chroma .lnlinks { outline: none; text-decoration: none; color: inherit }
+.chroma .lntd    { vertical-align: top; padding: 0; margin: 0; border: 0 }
+.chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0 }
+.chroma .hl      { background-color: #2d2f4a }
+.chroma .lnt,
+.chroma .ln      { white-space: pre; user-select: none; margin-right: .4em;
+                   padding: 0 .4em; color: #3b3f6e }
+.chroma .line    { display: flex }
+
+/* ── Keywords  ───────────────────────────────────────── */
+.chroma .k  { color: #bb9af7 }
+.chroma .kc { color: #ff9e64 }
+.chroma .kd { color: #bb9af7 }
+.chroma .kn { color: #7dcfff }
+.chroma .kp { color: #bb9af7 }
+.chroma .kr { color: #bb9af7 }
+.chroma .kt { color: #2ac3de }
+
+/* ── Names ───────────────────────────────────────────── */
+.chroma .na { color: #7aa2f7 }
+.chroma .nb { color: #7dcfff }
+.chroma .bp { color: #7dcfff }
+.chroma .nc { color: #2ac3de }
+.chroma .no { color: #ff9e64 }
+.chroma .nd { color: #7aa2f7; font-weight: bold }
+.chroma .ni { color: #7dcfff }
+.chroma .ne { color: #ff9e64 }
+.chroma .nl { color: #7dcfff }
+.chroma .nn { color: #ff9e64 }
+.chroma .py { color: #ff9e64 }
+.chroma .nt { color: #bb9af7 }
+.chroma .nv { color: #c0caf5 }
+.chroma .vc { color: #c0caf5 }
+.chroma .vg { color: #c0caf5 }
+.chroma .vi { color: #c0caf5 }
+.chroma .vm { color: #c0caf5 }
+.chroma .nf { color: #7aa2f7 }
+.chroma .fm { color: #7aa2f7 }
+
+/* ── Strings ─────────────────────────────────────────── */
+.chroma .s  { color: #9ece6a }
+.chroma .sa { color: #f7768e }
+.chroma .sb { color: #9ece6a }
+.chroma .sc { color: #9ece6a }
+.chroma .dl { color: #7aa2f7 }
+.chroma .sd { color: #565f89 }
+.chroma .s2 { color: #9ece6a }
+.chroma .se { color: #7aa2f7 }
+.chroma .sh { color: #565f89 }
+.chroma .si { color: #9ece6a }
+.chroma .sx { color: #9ece6a }
+.chroma .sr { color: #7dcfff }
+.chroma .s1 { color: #9ece6a }
+.chroma .ss { color: #9ece6a }
+
+/* ── Numbers ─────────────────────────────────────────── */
+.chroma .m  { color: #ff9e64 }
+.chroma .mb { color: #ff9e64 }
+.chroma .mf { color: #ff9e64 }
+.chroma .mh { color: #ff9e64 }
+.chroma .mi { color: #ff9e64 }
+.chroma .il { color: #ff9e64 }
+.chroma .mo { color: #ff9e64 }
+
+/* ── Operators ───────────────────────────────────────── */
+.chroma .o  { color: #89ddff }
+.chroma .ow { color: #89ddff; font-weight: bold }
+
+/* ── Punctuation ─────────────────────────────────────── */
+.chroma .p  { color: #a9b1d6 }
+
+/* ── Comments ────────────────────────────────────────── */
+.chroma .c   { color: #565f89; font-style: italic }
+.chroma .ch  { color: #565f89; font-style: italic }
+.chroma .cm  { color: #565f89; font-style: italic }
+.chroma .c1  { color: #565f89; font-style: italic }
+.chroma .cs  { color: #565f89; font-style: italic }
+.chroma .cp  { color: #565f89 }
+.chroma .cpf { color: #565f89 }
+
+/* ── Generics / Diff ─────────────────────────────────── */
+.chroma .gd { color: #f7768e }
+.chroma .ge { font-style: italic }
+.chroma .gr { color: #f7768e }
+.chroma .gh { color: #7aa2f7; font-weight: bold }
+.chroma .gi { color: #9ece6a }
+.chroma .go { color: #565f89 }
+.chroma .gp { color: #bb9af7; font-weight: bold }
+.chroma .gs { font-weight: bold }
+.chroma .gu { color: #7aa2f7; font-weight: bold }
+.chroma .gt { color: #f7768e }
+.chroma .w  { color: #a9b1d6 }
+
+/* ── Error ───────────────────────────────────────────── */
+.chroma .err { color: #f7768e }

@@ -9,6 +9,11 @@ publishDir = "docs"
 [markup.goldmark.renderer]
   unsafe = true   # allows raw HTML in markdown (needed for math blocks, etc.)
 
+[markup.highlight]
+  noClasses  = false
+  codeFences = true
+  lineNos    = false
+
 # ── Navigation ────────────────────────────────────────────────────────────────
 [[menu.main]]
   identifier = "blog"
