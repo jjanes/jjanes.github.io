@@ -1,0 +1,13 @@
+{{- /* Takes a site-absolute image path ("/nixos.jpg") and returns the matching
+     processable resource from assets/img/, or nil.
+
+     Everything under static/ is copied to the site verbatim and CANNOT be
+     resized by Hugo, so the same files also live in assets/img/. Callers
+     should fall back to the raw path when this returns nil — external URLs
+     and anything not mirrored into assets simply pass through untouched.  */ -}}
+{{- $path := . -}}
+{{- $r := "" -}}
+{{- if and $path (not (strings.HasPrefix $path "http")) -}}
+  {{- $r = resources.Get (printf "img/%s" (strings.TrimPrefix "/" $path)) -}}
+{{- end -}}
+{{- return $r -}}

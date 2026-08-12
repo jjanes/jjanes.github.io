@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Announcement on John Janes</title>
-    <link>https://janes.co/tags/announcement/</link>
+    <link>http://localhost:1313/tags/announcement/</link>
     <description>Recent content in Announcement on John Janes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Aug 2026 15:00:00 -0600</lastBuildDate>
-    <atom:link href="https://janes.co/tags/announcement/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/announcement/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Many Ninja: Putting a Name on the Pile</title>
-      <link>https://janes.co/posts/many-ninja/</link>
+      <link>http://localhost:1313/posts/many-ninja/</link>
       <pubDate>Tue, 11 Aug 2026 15:00:00 -0600</pubDate>
-      <guid>https://janes.co/posts/many-ninja/</guid>
+      <guid>http://localhost:1313/posts/many-ninja/</guid>
       <description>Many Ninja is live — the umbrella for the work. Custom web platforms, admin and operations tooling, realtime delivery, and runtime orchestration, built out of what the repos actually do.</description>
     </item>
     <item>
       <title>Emugate Alpha — Register Now</title>
-      <link>https://janes.co/posts/emugate-alpha/</link>
+      <link>http://localhost:1313/posts/emugate-alpha/</link>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://janes.co/posts/emugate-alpha/</guid>
+      <guid>http://localhost:1313/posts/emugate-alpha/</guid>
       <description>Emugate alpha testing is open. Browser-based multiplayer retro gaming — NES, SNES, GBA, PS1, N64, and more. No installs, no plugins. Register at drezdin.com.</description>
     </item>
   </channel>

@@ -46,6 +46,12 @@ publishDir = "docs"
   avatar      = "/drezdin-avatar-crop.jpg"
   favicon     = "/favicon.ico"
 
+  # Fallback social-share image for pages with no image of their own.
+  # Drop a 1200x630 file in static/ (and assets/img/) and point this at it —
+  # until then this falls back to the avatar, which is square and so renders
+  # as a small thumbnail card on Facebook/LinkedIn instead of a wide banner.
+  # ogImage   = "/og-default.png"
+
   # Streaming
   kickUsername = "drezdin"
 

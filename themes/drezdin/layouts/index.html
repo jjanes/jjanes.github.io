@@ -4,7 +4,10 @@
 <section class="hero">
   <div class="hero-inner">
     {{ with .Site.Params.avatar }}
-    <img src="{{ . }}" alt="{{ $.Site.Params.author }}" class="hero-avatar">
+    {{ $src := . }}
+    {{/* Displayed at 96px — serve 2x for retina instead of the 783KB original. */}}
+    {{ with partial "img-resource.html" $src }}{{ $src = (.Fill "192x192 Center webp q80").RelPermalink }}{{ end }}
+    <img src="{{ $src }}" alt="{{ $.Site.Params.author }}" class="hero-avatar" width="96" height="96">
     {{ end }}
     <div>
       <h1 class="hero-name">
@@ -46,8 +49,10 @@
         </div>
       </div>
       {{ with $post.Params.announcement_image }}
+      {{ $src := . }}
+      {{ with partial "img-resource.html" $src }}{{ $src = (.Fill "900x560 Center webp q80").RelPermalink }}{{ end }}
       <a href="{{ $post.RelPermalink }}" class="announcement-img-wrap">
-        <img src="{{ . }}" alt="{{ $post.Title }}" loading="lazy">
+        <img src="{{ $src }}" alt="{{ $post.Title }}" loading="lazy" decoding="async">
       </a>
       {{ end }}
     </div>
@@ -75,14 +80,15 @@
              height — that way every card shows art without the grid row
              stretching to whatever the raw image height happened to be. */}}
         <p class="post-card-summary">{{ .Summary | plainify | truncate 120 }}</p>
-        {{ $img := .Params.image | default .Params.announcement_image }}
-        {{ if not $img }}
-          {{ with findRE `<img[^>]*src="[^"]*"` .Content 1 }}
-            {{ $img = replaceRE `.*src="([^"]*)".*` "$1" (index . 0) }}
-          {{ end }}
+        {{ with partial "lead-image.html" . }}
+        {{ $src := . }}{{ $w := 0 }}{{ $h := 0 }}
+        {{ with partial "img-resource.html" $src }}
+          {{ $t := .Fill "700x400 Center webp q80" }}
+          {{ $src = $t.RelPermalink }}{{ $w = $t.Width }}{{ $h = $t.Height }}
         {{ end }}
-        {{ with $img }}
-        <div class="post-card-img"><img src="{{ . }}" alt="" loading="lazy"></div>
+        <div class="post-card-img">
+          <img src="{{ $src }}" alt=""{{ if $w }} width="{{ $w }}" height="{{ $h }}"{{ end }} loading="lazy" decoding="async">
+        </div>
         {{ end }}
         {{ with .Params.tags }}
         <div class="tag-row">{{ range first 3 . }}<span class="tag">{{ . }}</span>{{ end }}</div>

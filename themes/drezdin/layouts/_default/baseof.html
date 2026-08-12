@@ -10,8 +10,60 @@
       {{ .Title }} | {{ .Site.Title }}
     {{- end -}}
   </title>
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  {{/* ── Shared page metadata ──────────────────────────────────────────────
+       $desc falls back through frontmatter description → summary → the auto
+       summary → the site description, so a page is never left describing the
+       whole site. $ogimg must be an ABSOLUTE url — Facebook and LinkedIn
+       silently drop relative ones. */}}
+  {{- $desc := .Description -}}
+  {{- if not $desc }}{{ $desc = .Params.summary }}{{ end -}}
+  {{- if and (not $desc) .IsPage }}{{ $desc = .Summary | plainify | truncate 200 }}{{ end -}}
+  {{- if not $desc }}{{ $desc = .Site.Params.description }}{{ end -}}
+  {{- $title := cond .IsHome (printf "%s — %s" .Site.Title .Site.Params.description) (printf "%s | %s" .Title .Site.Title) -}}
+  {{- $img := partial "lead-image.html" . -}}
+  {{- if not $img }}{{ $img = .Site.Params.ogImage | default .Site.Params.avatar }}{{ end -}}
+  {{- $ogimg := $img | absURL -}}
+  {{- $ogw := "" -}}{{- $ogh := "" -}}
+  {{- /* Facebook/LinkedIn want 1200x630. Crop to exactly that and declare the
+       dimensions so the card renders correctly on first scrape. */ -}}
+  {{- with partial "img-resource.html" $img -}}
+    {{- /* jpg, not webp — every scraper handles jpeg without surprises. */ -}}
+    {{- $c := .Fill "1200x630 Center jpg q85" -}}
+    {{- $ogimg = $c.Permalink -}}{{- $ogw = $c.Width -}}{{- $ogh = $c.Height -}}
+  {{- end -}}
+
+  <meta name="description" content="{{ $desc }}">
   <meta name="color-scheme" content="light">
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  <!-- Open Graph — Facebook, LinkedIn, Discord, iMessage, Slack -->
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:title" content="{{ $title }}">
+  <meta property="og:description" content="{{ $desc }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:image" content="{{ $ogimg }}">
+  {{- with $ogw }}
+  <meta property="og:image:width" content="{{ . }}">
+  <meta property="og:image:height" content="{{ $ogh }}">
+  {{- end }}
+  <meta property="og:image:alt" content="{{ $title }}">
+  <meta property="og:locale" content="en_US">
+  {{- if .IsPage }}
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+  <meta property="article:author" content="{{ .Site.Params.author }}">
+  {{- range (.Params.tags | default slice) }}
+  <meta property="article:tag" content="{{ . }}">
+  {{- end }}
+  {{- end }}
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ $title }}">
+  <meta name="twitter:description" content="{{ $desc }}">
+  <meta name="twitter:image" content="{{ $ogimg }}">
+  <meta name="twitter:site" content="@jjfish">
+  <meta name="twitter:creator" content="@jjfish">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -91,7 +143,9 @@
     <div class="presented-by">
       <a class="presented-by-link" href="https://many.ninja" target="_blank" rel="noopener">
         <span class="presented-by-avatar">
-          <img src="/many-ninja-aiden.png" alt="Aiden — Many Ninja mascot" loading="lazy" width="36" height="36">
+          {{- $aiden := "/many-ninja-aiden.png" -}}
+          {{- with partial "img-resource.html" $aiden }}{{ $aiden = (.Fill "104x104 Center webp q80").RelPermalink }}{{ end -}}
+          <img src="{{ $aiden }}" alt="Aiden — Many Ninja mascot" loading="lazy" width="52" height="52">
         </span>
         <span class="presented-by-text">
           <span class="presented-by-prefix">presented by</span>

@@ -1,0 +1,22 @@
+{{- /* Returns a page's lead image URL, or "" if it has none.
+
+     Order: an explicit `image:` in frontmatter, then `announcement_image:`,
+     then the first <img> in the rendered content. Used by both the homepage
+     post cards and the Open Graph tags in <head> so the two can't drift.  */ -}}
+{{- $img := .Params.image | default .Params.announcement_image -}}
+{{- /* Read the RAW markdown, not .Content — by the time content is rendered the
+     image render hook has already rewritten srcs to processed resources like
+     /img/foo_hu_abc123.webp, which no longer resolve back to assets/img/. */ -}}
+{{- if not $img -}}
+  {{- with findRE `!\[[^\]]*\]\(([^)\s]+)` .RawContent 1 -}}
+    {{- $img = replaceRE `!\[[^\]]*\]\(([^)\s]+).*` "$1" (index . 0) -}}
+  {{- end -}}
+{{- end -}}
+{{- /* Last resort for shortcode-embedded images (e.g. {{< figure >}}), which
+     never pass through the render hook and so keep their original src. */ -}}
+{{- if not $img -}}
+  {{- with findRE `<img[^>]*src="[^"]*"` .Content 1 -}}
+    {{- $img = replaceRE `.*src="([^"]*)".*` "$1" (index . 0) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $img -}}

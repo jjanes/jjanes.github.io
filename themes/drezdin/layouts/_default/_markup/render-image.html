@@ -1,0 +1,15 @@
+{{- /* Markdown image render hook.
+
+     Post images are shot at 1500-2800px wide and were being served at full
+     size then scaled down by the browser. Anything wider than 1400px gets
+     resized and re-encoded as webp; width/height are emitted so the page
+     stops reflowing as images load. Unknown paths pass through unchanged. */ -}}
+{{- $dest := .Destination -}}
+{{- $r := partial "img-resource.html" $dest -}}
+{{- with $r -}}
+  {{- $i := . -}}
+  {{- if gt $i.Width 1400 -}}{{- $i = $i.Resize "1400x q85 webp" -}}{{- end -}}
+  <img src="{{ $i.RelPermalink }}" alt="{{ $.Text }}"{{ with $.Title }} title="{{ . }}"{{ end }} width="{{ $i.Width }}" height="{{ $i.Height }}" loading="lazy" decoding="async">
+{{- else -}}
+  <img src="{{ $dest | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async">
+{{- end -}}
