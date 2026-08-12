@@ -2,6 +2,7 @@
 title: "The elephant in the room.. Personal Home Page"
 date: 2026-04-27T12:00:00-06:00
 draft: false
+summary: "Late 90s dynamic websites were Perl scripts and server-side binaries — clunky, manual, and glorious. Then a buddy told me to just use PHP."
 tags: ["origin story", "personal", "computers", "career"]
 categories: ["Blog"]
 ---

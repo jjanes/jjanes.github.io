@@ -20,28 +20,28 @@
       <link>https://janes.co/posts/software-for-love-of-the-game/</link>
       <pubDate>Tue, 11 Aug 2026 12:00:00 -0600</pubDate>
       <guid>https://janes.co/posts/software-for-love-of-the-game/</guid>
-      <description>&lt;p&gt;&lt;em&gt;From passion, to hacking, to engineer.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://janes.co/mirc-desk.png&#34; alt=&#34;A 90s desk: Compaq CRT running mIRC, a script editor, a 56k modem, and a stack of floppies&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;I have always loved computers. Tinkering with them. Breaking them. Fixing them. Tearing them apart.&lt;/p&gt;&#xA;&lt;p&gt;I look back at the early years of my journey into programming and realize how much they helped lay the foundation for my career. At the time, I wasn&amp;rsquo;t thinking about a career. I wasn&amp;rsquo;t thinking about software engineering, architecture, or where any of this would eventually take me.&lt;/p&gt;</description>
+      <description>IRC, mIRC scripting, Napster before it was Napster, and the month MTV put a live chat channel on television. How the 90s scene taught me to build software.</description>
     </item>
     <item>
       <title>Let’s Talk About Nix. My Daily Driver</title>
       <link>https://janes.co/posts/daily-driver/</link>
       <pubDate>Sat, 23 May 2026 00:00:00 -0600</pubDate>
       <guid>https://janes.co/posts/daily-driver/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://janes.co/nixos-dd.jpg&#34; alt=&#34;daily drive&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is part of a series I am writing on NixOS. If you want a little background on my history with Linux and how I ended up daily driving NixOS, read this first: &lt;a href=&#34;https://janes.co/posts/nixos&#34;&gt;I use NixOS&amp;hellip; BTW&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-nixos&#34;&gt;What is NixOS?&lt;/h1&gt;&#xA;&lt;p&gt;Nix is really three things at once:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;A package manager and build system&lt;/li&gt;&#xA;&lt;li&gt;A programming language&lt;/li&gt;&#xA;&lt;li&gt;A Linux-based operating system&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;If you have never heard of Nix — or even if you have — you are probably scratching your head right now wondering:&lt;/p&gt;</description>
+      <description>Part two of the NixOS series. Nix is a package manager, a programming language, and an operating system all at once — here is why that combination actually makes sense.</description>
     </item>
     <item>
       <title>I use NixOS... BTW</title>
       <link>https://janes.co/posts/nixos/</link>
       <pubDate>Sat, 16 May 2026 12:00:00 -0600</pubDate>
       <guid>https://janes.co/posts/nixos/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://janes.co/nixos.jpg&#34; alt=&#34;l33t NixOS&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;lsquo;95 was an amazing summer. Before starting my 8th grade year of junior high, I was given what felt like an early graduation gift: the internet.&lt;/p&gt;&#xA;&lt;p&gt;Man, I was excited.&lt;/p&gt;&#xA;&lt;p&gt;I had already been exposed to computers at friends’ houses for years — things like Slackware and IRC (Internet Relay Chat). Back then, the internet still felt underground. You had to &lt;em&gt;want&lt;/em&gt; to learn it.&lt;/p&gt;&#xA;&lt;p&gt;I’ve been using Linux in one form or another since around 1995. I didn’t really start daily driving it on the desktop until much later though. Windows still owned gaming, hardware support was rough, and there were always those stupid “Windows-only” devices — printers, mice, scanners, random drivers, you name it.&lt;/p&gt;</description>
+      <description>Thirty years of Linux, from Slackware and xorg.conf in the 90s through Ubuntu and everything after, and how I finally ended up daily driving NixOS.</description>
     </item>
     <item>
       <title>The elephant in the room.. Personal Home Page</title>
       <link>https://janes.co/posts/php/</link>
       <pubDate>Mon, 27 Apr 2026 12:00:00 -0600</pubDate>
       <guid>https://janes.co/posts/php/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://janes.co/php.jpg&#34; alt=&#34;Personal Home Page&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;When I first stumbled into the world of dynamic websites in the late 1990s, the landscape was a wild frontier. Perl scripts and server-side binaries ruled the World Wide Web. It was clunky, it was manual, and it was glorious.&lt;/p&gt;&#xA;&lt;p&gt;At the time, a buddy of mine was hosting my site. I remember asking him a simple question: &amp;ldquo;How can I add a counter to my page?&amp;rdquo;&lt;/p&gt;</description>
+      <description>Late 90s dynamic websites were Perl scripts and server-side binaries — clunky, manual, and glorious. Then a buddy told me to just use PHP.</description>
     </item>
     <item>
       <title>Emugate</title>

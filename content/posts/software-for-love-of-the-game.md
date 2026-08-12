@@ -2,6 +2,7 @@
 title: "Software for Love of the Game"
 date: 2026-08-11T12:00:00-06:00
 draft: false
+summary: "IRC, mIRC scripting, Napster before it was Napster, and the month MTV put a live chat channel on television. How the 90s scene taught me to build software."
 tags: ["irc", "mirc", "personal", "origin story", "90s"]
 categories: ["Blog"]
 ---

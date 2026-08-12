@@ -2,6 +2,7 @@
 title: "I use NixOS... BTW"
 date: 2026-05-16T12:00:00-06:00
 draft: false
+summary: "Thirty years of Linux, from Slackware and xorg.conf in the 90s through Ubuntu and everything after, and how I finally ended up daily driving NixOS."
 tags: ["origin story", "personal", "computers", "NixOS", "Linux", "LoveOfTheGame"]
 categories: ["Blog"]
 ---

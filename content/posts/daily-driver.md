@@ -2,6 +2,7 @@
 title: "Let’s Talk About Nix. My Daily Driver"
 date: 2026-05-23T00:00:00-06:00
 draft: false
+summary: "Part two of the NixOS series. Nix is a package manager, a programming language, and an operating system all at once — here is why that combination actually makes sense."
 tags: ["origin story", "personal", "computers", "NixOS", "Linux", "LoveOfTheGame"]
 categories: ["Blog"]
 ---

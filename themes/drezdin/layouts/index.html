@@ -70,7 +70,20 @@
           {{ if .Params.featured }}<span class="badge-featured">Featured</span>{{ end }}
         </div>
         <h3 class="post-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-        <p class="post-card-summary">{{ .Summary | truncate 120 }}</p>
+        {{/* plainify the summary so the card blurb is always clean text, then
+             pull the post's lead image out separately and render it at a fixed
+             height — that way every card shows art without the grid row
+             stretching to whatever the raw image height happened to be. */}}
+        <p class="post-card-summary">{{ .Summary | plainify | truncate 120 }}</p>
+        {{ $img := .Params.image | default .Params.announcement_image }}
+        {{ if not $img }}
+          {{ with findRE `<img[^>]*src="[^"]*"` .Content 1 }}
+            {{ $img = replaceRE `.*src="([^"]*)".*` "$1" (index . 0) }}
+          {{ end }}
+        {{ end }}
+        {{ with $img }}
+        <div class="post-card-img"><img src="{{ . }}" alt="" loading="lazy"></div>
+        {{ end }}
         {{ with .Params.tags }}
         <div class="tag-row">{{ range first 3 . }}<span class="tag">{{ . }}</span>{{ end }}</div>
         {{ end }}
