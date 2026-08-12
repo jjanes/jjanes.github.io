@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Many Ninja: Putting a Name on the Pile | John Janes</title>
+  <meta name="description" content="Senior Software Engineer — systems, games, retro tech, and low-level everything.">
+  <meta name="color-scheme" content="light">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="alternate" type="application/rss+xml" title="John Janes" href="/index.xml">
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PC1TW04WSF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PC1TW04WSF');
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">John Janes</a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        
+        <li>
+          <a href="/posts/"
+             >
+            Blog
+          </a>
+        </li>
+        
+        <li>
+          <a href="/projects/"
+             >
+            Projects
+          </a>
+        </li>
+        
+        <li>
+          <a href="/resume/"
+             >
+            Résumé
+          </a>
+        </li>
+        
+        <li>
+          <a href="/contact/"
+             >
+            Contact
+          </a>
+        </li>
+        
+        <li>
+          <a href="https://github.com/jjanes" target="_blank" rel="noopener"
+             class="nav-icon-link" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61
+                       c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77
+                       5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0
+                       C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77
+                       a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7
+                       A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  
+  <div id="live-banner" class="live-banner" style="display:none"></div>
+
+  <main class="site-main">
+    
+<div class="prose-layout">
+
+  <header class="prose-header">
+    <h1 class="prose-title">Many Ninja: Putting a Name on the Pile</h1>
+    <div class="prose-meta">
+      <span>August 11, 2026</span>
+      
+      <span>·</span>
+      <span class="tag">many.ninja</span><span class="tag">drezdin-labs</span><span class="tag">announcement</span><span class="tag">personal</span>
+      
+      
+      <span class="badge-featured">Featured</span>
+      
+    </div>
+  </header>
+
+  <div class="prose-body">
+    <p>I put up a new site: <strong><a href="https://many.ninja">many.ninja</a></strong>.</p>
+<p><img src="/many-ninja-site.png" alt="Many Ninja"></p>
+<hr>
+<h2 id="what-it-actually-is">What it actually is</h2>
+<p>For a few years now I&rsquo;ve been building a lot of things that are all, quietly, the same thing. A Rust platform for ROM and emulator management. A Go runtime behind Emugate. A browser portal. An admin SPA that half a dozen surfaces mount into. Realtime video pipes. Auth gates. Orchestration for worker processes that need to launch, get tracked, and resume.</p>
+<p>Individually they&rsquo;re just repos. Side projects with weird names. Every one of them made sense on its own and none of them added up to anything you could point at.</p>
+<p>Many Ninja is me pointing at it.</p>
+<p>It&rsquo;s an umbrella — a name for the body of work, so I can stop explaining each repo separately and start talking about what the whole pile of it demonstrates. Custom web platforms. Admin and operations tooling. Realtime delivery. Runtime orchestration. Backend architecture. Written across Rust, Go, Zig, and whatever the browser needed that week.</p>
+<h2 id="built-backwards-on-purpose">Built backwards on purpose</h2>
+<p>The thing I care about most: the site is assembled from what the code actually does, not from what I&rsquo;d like to claim it does.</p>
+<p>I&rsquo;ve read enough software company websites. They all sound the same. Passionate team, cutting-edge solutions, we partner with you on your digital journey. Nobody writes that because it&rsquo;s true, they write it because it&rsquo;s the shape the page is supposed to be.</p>
+<p>So I did it the other way around. I went through the repos, wrote down what capabilities kept showing up, and built the site from the ones I could back with something you can open and read. Where the proof is thin I said so — the capability map has a &ldquo;strong&rdquo; column and an &ldquo;emerging&rdquo; column, and I put things in the honest one.</p>
+<p>Turns out when you build a company site out of evidence instead of adjectives, you end up with something closer to a map than a brochure.</p>
+<h2 id="the-ninja-joke-made-it-in">The ninja joke made it in</h2>
+<p>There&rsquo;s a comic on the site of a ninja holding two magnets, asking how they work.</p>
+<p>This does not belong on a professional software company website. That&rsquo;s exactly why it&rsquo;s there. If I&rsquo;m going to build the thing, it should feel like a real thing with a point of view — not a sterile template pretending to have one. I&rsquo;d rather it be a little weird and actually mine.</p>
+<p>Aiden, the mascot, is on the site too. He&rsquo;s now at the bottom of every page here as well, which is the whole point of an umbrella.</p>
+<h2 id="where-things-stand">Where things stand</h2>
+<p><code>janes.co</code> — this site — stays personal. Blog posts, the résumé, whatever I&rsquo;m thinking about.</p>
+<p><code>many.ninja</code> is the work. <code>drezdin.com</code> is where my internet persona lives. <code>labs.drezdin.com</code> is the labs page. <code>emugate.org</code> is the new home for Emugate.</p>
+<p>The company story is still in progress and the site says so on the front page. I&rsquo;d rather ship it honest and unfinished than sit on it until it&rsquo;s polished into meaninglessness.</p>
+<p>Go look: <strong><a href="https://many.ninja">many.ninja</a></strong></p>
+
+  </div>
+
+  <hr class="divider">
+  <p style="font-size:0.85rem;color:var(--text-3);">
+    <a href="/posts/">← All posts</a>
+  </p>
+
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="https://github.com/jjanes"           target="_blank" rel="noopener">GitHub</a>
+        <a href="https://kick.com/drezdin"            target="_blank" rel="noopener">Kick</a>
+        <a href="https://youtube.com/@drezOG"         target="_blank" rel="noopener">YouTube</a>
+        <a href="https://x.com/jjfish"                target="_blank" rel="noopener">X</a>
+        <a href="https://twitch.tv/jjfishii"          target="_blank" rel="noopener">Twitch</a>
+        <a href="https://linkedin.com/in/johnrjanes"  target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://drezdin.com"                 target="_blank" rel="noopener">Drezdin Labs</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 John Janes. All rights reserved.</p>
+    </div>
+
+    
+    <div class="presented-by">
+      <a class="presented-by-link" href="https://many.ninja" target="_blank" rel="noopener">
+        <span class="presented-by-avatar">
+          <img src="/many-ninja-aiden.png" alt="Aiden — Many Ninja mascot" loading="lazy" width="36" height="36">
+        </span>
+        <span class="presented-by-text">
+          <span class="presented-by-prefix">presented by</span>
+          <span class="presented-by-name">many.ninja</span>
+        </span>
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    window.SITE_CONFIG = {
+      kickUsername:     "drezdin",
+      youtubeChannelId: "UCx7tk6qQRq5OT1FYIGiS6cg",
+      youtubeApiKey:    ""
+    };
+  </script>
+  <script src="/js/live.js" defer></script>
+
+</body>
+</html>

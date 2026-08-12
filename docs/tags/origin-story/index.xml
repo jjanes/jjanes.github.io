@@ -6,8 +6,15 @@
     <description>Recent content in Origin Story on John Janes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 May 2026 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 12:00:00 -0600</lastBuildDate>
     <atom:link href="https://janes.co/tags/origin-story/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software for Love of the Game</title>
+      <link>https://janes.co/posts/software-for-love-of-the-game/</link>
+      <pubDate>Tue, 11 Aug 2026 12:00:00 -0600</pubDate>
+      <guid>https://janes.co/posts/software-for-love-of-the-game/</guid>
+      <description>&lt;p&gt;&lt;em&gt;From passion, to hacking, to engineer.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://janes.co/mirc-desk.png&#34; alt=&#34;A 90s desk: Compaq CRT running mIRC, a script editor, a 56k modem, and a stack of floppies&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;I have always loved computers. Tinkering with them. Breaking them. Fixing them. Tearing them apart.&lt;/p&gt;&#xA;&lt;p&gt;I look back at the early years of my journey into programming and realize how much they helped lay the foundation for my career. At the time, I wasn&amp;rsquo;t thinking about a career. I wasn&amp;rsquo;t thinking about software engineering, architecture, or where any of this would eventually take me.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Let’s Talk About Nix. My Daily Driver</title>
       <link>https://janes.co/posts/daily-driver/</link>

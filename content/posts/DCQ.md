@@ -1,7 +1,7 @@
 ---
 title: "Dead Contract Queue: Cascading Multi-Layer Contract Execution"
 date: 2026-03-02
-draft: false
+draft: true
 tags: ["architecture", "contracts", "execution-engine"]
 ---
 

@@ -362,6 +362,7 @@ h1, h2, h3, h4 { font-family: var(--font-brand); font-weight: 700; line-height: 
 .card-grid-4 { display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; }
 
 .post-card {
+  position: relative;          /* anchor for the stretched title link below */
   background: var(--bg-subtle);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -372,6 +373,7 @@ h1, h2, h3, h4 { font-family: var(--font-brand); font-weight: 700; line-height: 
   transition: border-color .15s, box-shadow .15s;
 }
 .post-card:hover { border-color: var(--blue); box-shadow: 0 2px 12px rgba(37,99,235,.08); }
+.post-card:focus-within { border-color: var(--blue); box-shadow: 0 2px 12px rgba(37,99,235,.08); }
 
 .post-card-date {
   font-size: .75rem;
@@ -385,6 +387,15 @@ h1, h2, h3, h4 { font-family: var(--font-brand); font-weight: 700; line-height: 
 }
 .post-card-title a { color: inherit; }
 .post-card-title a:hover { color: var(--blue); }
+/* Stretch the title link over the whole card so the entire box is clickable,
+   while the accessible link name stays the post title. */
+.post-card-title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-lg);
+}
+.post-card:hover .post-card-title a { color: var(--blue); }
 
 .post-card-summary {
   font-size: .85rem;
@@ -1097,6 +1108,64 @@ h1, h2, h3, h4 { font-family: var(--font-brand); font-weight: 700; line-height: 
 .footer-links a { font-size: .83rem; color: var(--text-3); }
 .footer-links a:hover { color: var(--blue); }
 .footer-copy { font-size: .75rem; color: var(--text-3); font-family: var(--mono); }
+
+/* ── Presented-by pill (many.ninja umbrella signature) ──────────────────────
+   Uses the site's own light/blue palette rather than the dark cyan brand
+   treatment, so it reads as part of the footer instead of a pasted-in badge. */
+.presented-by {
+  max-width: var(--max-w);
+  margin: 1.5rem auto 0;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.presented-by-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  padding: .7rem 1.6rem .7rem .7rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  text-decoration: none;
+  background: var(--bg-subtle);
+  transition: background .2s, border-color .2s, box-shadow .2s, transform .1s;
+}
+.presented-by-link:hover {
+  background: var(--blue-faint);
+  border-color: var(--border-blue);
+  box-shadow: var(--shadow);
+  transform: translateY(-1px);
+}
+.presented-by-link:active { transform: translateY(0); }
+.presented-by-avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid var(--border-blue);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: var(--white);
+  box-shadow: var(--shadow-sm);
+  flex: none;
+}
+.presented-by-avatar img { width: 100%; height: 100%; object-fit: cover; }
+.presented-by-text { display: flex; flex-direction: column; gap: .2rem; line-height: 1.15; }
+.presented-by-prefix {
+  font-family: var(--mono);
+  font-size: .7rem;
+  letter-spacing: .24em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+.presented-by-name {
+  font-family: var(--mono);
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: .04em;
+  color: var(--blue);
+}
+.presented-by-link:hover .presented-by-name { color: var(--blue-dark); }
 
 /* ── Misc ───────────────────────────────────────────────────────────────── */
 .divider { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
