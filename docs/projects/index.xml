@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on John Janes</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>https://janes.co/projects/</link>
     <description>Recent content in Projects on John Janes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://janes.co/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emugate</title>
-      <link>http://localhost:1313/projects/emugate/</link>
+      <link>https://janes.co/projects/emugate/</link>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/emugate/</guid>
+      <guid>https://janes.co/projects/emugate/</guid>
       <description>Browser-based multiplayer retro gaming platform. Stream classic games in real-time over H.264/WebSocket — no plugins, no installs, up to 4 players.</description>
     </item>
     <item>
       <title>Gate Bevy</title>
-      <link>http://localhost:1313/projects/bevy-gate/</link>
+      <link>https://janes.co/projects/bevy-gate/</link>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/bevy-gate/</guid>
+      <guid>https://janes.co/projects/bevy-gate/</guid>
       <description>Multiplayer 3D action game engine and world editor built on Bevy. Third-person gameplay, dedicated server, Lua-scripted UI, and a browser-based map editor.</description>
     </item>
     <item>
       <title>orbis-v1</title>
-      <link>http://localhost:1313/projects/orbis-v1/</link>
+      <link>https://janes.co/projects/orbis-v1/</link>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/orbis-v1/</guid>
+      <guid>https://janes.co/projects/orbis-v1/</guid>
       <description>AI-powered video editor built in Zig. A high-performance inference server backed by ONNX Runtime and AMD ROCm/HIP drives face detection, embedding, and swapping — all composable as JSON playbooks. Python GUI on top for timeline editing and real-time preview.</description>
     </item>
   </channel>

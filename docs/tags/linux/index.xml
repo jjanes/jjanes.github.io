@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on John Janes</title>
-    <link>http://localhost:1313/tags/linux/</link>
+    <link>https://janes.co/tags/linux/</link>
     <description>Recent content in Linux on John Janes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 May 2026 00:00:00 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://janes.co/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Let’s Talk About Nix. My Daily Driver</title>
-      <link>http://localhost:1313/posts/daily-driver/</link>
+      <link>https://janes.co/posts/daily-driver/</link>
       <pubDate>Sat, 23 May 2026 00:00:00 -0600</pubDate>
-      <guid>http://localhost:1313/posts/daily-driver/</guid>
+      <guid>https://janes.co/posts/daily-driver/</guid>
       <description>Part two of the NixOS series. Nix is a package manager, a programming language, and an operating system all at once — here is why that combination actually makes sense.</description>
     </item>
     <item>
       <title>I use NixOS... BTW</title>
-      <link>http://localhost:1313/posts/nixos/</link>
+      <link>https://janes.co/posts/nixos/</link>
       <pubDate>Sat, 16 May 2026 12:00:00 -0600</pubDate>
-      <guid>http://localhost:1313/posts/nixos/</guid>
+      <guid>https://janes.co/posts/nixos/</guid>
       <description>Thirty years of Linux, from Slackware and xorg.conf in the 90s through Ubuntu and everything after, and how I finally ended up daily driving NixOS.</description>
     </item>
   </channel>
